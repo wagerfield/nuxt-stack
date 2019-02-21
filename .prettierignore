@@ -1,0 +1,14 @@
+# folders
+node_modules
+coverage
+dist
+
+# dot
+.nuxt
+
+# files
+nuxt.config.js
+jsconfig.json
+package.json
+lerna.json
+pkg.json
