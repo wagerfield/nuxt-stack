@@ -1,0 +1,11 @@
+{
+  "exclude": ["node_modules", "<%=generateDir%>", "<%=buildDir%>"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["<%=dot(srcDir)%>/*"],
+      "~/*": ["<%=dot(srcDir)%>/*"]
+    }
+  }
+}

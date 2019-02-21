@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+  font-family: $mono-font-fallback;
+  line-height: 1.5;
+  color: $black;
+  background: $smoke;
+  &.wf-active {
+    font-family: $mono-font-family;
+  }
+}
+
+h1 {
+  font-size: 7rem;
+  font-family: $heading-font-fallback;
+  line-height: 0.9;
+  .wf-active & {
+    font-family: $heading-font-family;
+  }
+}
+
+button {
+  letter-spacing: 1px;
+  padding: 0.75em 1.5em;
+  border: 2px solid $black;
+  text-transform: uppercase;
+  background: $white;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.tabbing :focus {
+  outline: 2px solid $green-1;
+}

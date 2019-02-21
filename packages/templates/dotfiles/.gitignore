@@ -1,0 +1,20 @@
+# folders
+node_modules
+coverage
+build
+dist
+
+# dot
+.nuxt
+.env
+
+# files
+sitemap.xml.gz
+sitemap.xml
+sw.js
+
+# logs
+*.log
+
+# system
+.DS_Store

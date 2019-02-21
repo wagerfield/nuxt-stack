@@ -1,0 +1,38 @@
+{
+  "scripts": {
+    "dev": "nuxt",
+    "setup": "nuxt setup",
+    "clean": "nuxt clean",
+    "serve": "nuxt serve",
+    "start": "nuxt start",
+    "stats": "nuxt stats",
+    "build": "nuxt build --modern=server",
+    "generate": "nuxt generate --modern=client",
+    "format": "nuxt format --write --lint '*.{md}' '<%=slash(srcDir)%>**/*.{js,json,scss,vue}'",
+    "lint": "nuxt lint . --fix",
+    "test": "nuxt test",
+    "commit": "commit"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "<%=slash(srcDir)%>**/*.{js,vue}": [
+      "nuxt format --write --lint",
+      "nuxt lint --fix",
+      "nuxt test --related",
+      "git add"
+    ],
+    "<%=slash(srcDir)%>**/*.{html,json,scss}": [
+      "nuxt format --write",
+      "git add"
+    ],
+    "*.{md}": [
+      "nuxt format --write",
+      "git add"
+    ]
+  }
+}
