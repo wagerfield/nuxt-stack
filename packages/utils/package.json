@@ -1,0 +1,18 @@
+{
+  "name": "nuxt-stack-utils",
+  "description": "Nuxt Stack utils",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Matthew Wagerfield <matthew@wagerfield.com>",
+  "homepage": "https://github.com/wagerfield/nuxt-stack#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagerfield/nuxt-stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wagerfield/nuxt-stack/issues"
+  },
+  "scripts": {
+    "test": "echo test $npm_package_name version $npm_package_version"
+  }
+}
