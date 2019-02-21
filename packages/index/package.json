@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-stack",
+  "description": "Stack of modules and scripts for building performant Nuxt apps",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Matthew Wagerfield <matthew@wagerfield.com>",
+  "homepage": "https://github.com/wagerfield/nuxt-stack#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagerfield/nuxt-stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wagerfield/nuxt-stack/issues"
+  },
+  "scripts": {
+    "test": "echo test $npm_package_name version $npm_package_version"
+  },
+  "dependencies": {
+    "nuxt": "^2.4.3",
+    "nuxt-stack-cli": "0.0.0",
+    "nuxt-stack-module": "0.0.0"
+  }
+}
