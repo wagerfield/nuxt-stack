@@ -1,0 +1,33 @@
+{
+  "version": "0.0.0",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "init": {
+      "exact": true
+    },
+    "publish": {
+      "npmClient": "npm",
+      "conventionalCommits": true,
+      "yes": true
+    }
+  },
+  "changelog": {
+    "labels": {
+      "build": "Build",
+      "chore": "Chore",
+      "ci": "Continuous Integration",
+      "docs": "Documentation",
+      "feat": "Feature",
+      "fix": "Fix",
+      "perf": "Performance",
+      "refactor": "Refactor",
+      "revert": "Revert",
+      "style": "Style",
+      "test": "Test"
+    }
+  },
+  "packages": [
+    "packages/*"
+  ]
+}

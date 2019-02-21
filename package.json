@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-stack-root",
+  "private": true,
+  "scripts": {
+    "commit": "commit",
+    "version": "lerna version",
+    "release": "cross-env HUSKY_BYPASS=true lerna publish",
+    "test": "lerna run test --stream",
+    "diff": "lerna diff",
+    "lint": "eslint ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "[[ -n $HUSKY_BYPASS ]] || commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,vue}": [
+      "prettier --write",
+      "eslint",
+      "git add"
+    ],
+    "**/*.{json,md,scss}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "3.13.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
