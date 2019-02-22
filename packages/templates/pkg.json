@@ -1,7 +1,6 @@
 {
   "scripts": {
     "dev": "nuxt",
-    "setup": "nuxt setup",
     "clean": "nuxt clean",
     "serve": "nuxt serve",
     "start": "nuxt start",
