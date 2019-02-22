@@ -5,7 +5,7 @@ module.exports = {
     alias: "c",
     type: "string",
     default: defaultNuxtConfigFile,
-    description: "Path to Nuxt config file"
+    description: `Path to Nuxt config file\nDefault: ${defaultNuxtConfigFile}`
   },
   version: {
     alias: "v",
