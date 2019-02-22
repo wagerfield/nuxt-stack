@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "nuxt": "^2.4.3",
-    "nuxt-stack": "^0.0.0"
+    "nuxt": "2.4.3",
+    "nuxt-stack": "0.0.0"
   },
   "scripts": {
     "dev": "nuxt",

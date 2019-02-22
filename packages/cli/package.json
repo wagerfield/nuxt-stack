@@ -35,7 +35,7 @@
     "lodash": "4.17.11",
     "nuxt": "2.4.3",
     "nuxt-stack-templates": "0.0.0",
-    "nuxt-stack-utils": "^0.0.0",
+    "nuxt-stack-utils": "0.0.0",
     "prettier-config-nuxt-stack": "0.0.0",
     "read-pkg": "4.0.1",
     "rimraf": "2.6.3",
