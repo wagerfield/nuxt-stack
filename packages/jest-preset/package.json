@@ -26,9 +26,9 @@
     "jest-serializer-vue": "2.0.2",
     "jest-transform-stub": "2.0.0",
     "nuxt-stack-utils": "0.0.0",
-    "vue": "2.6.6",
+    "vue": "2.6.7",
     "vue-jest": "3.0.3",
-    "vue-server-renderer": "2.6.6",
-    "vue-template-compiler": "2.6.6"
+    "vue-server-renderer": "2.6.7",
+    "vue-template-compiler": "2.6.7"
   }
 }
