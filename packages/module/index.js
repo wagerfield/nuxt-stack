@@ -24,7 +24,7 @@ export default async function NuxtStack(options) {
   assign("hardSource", true)
 
   // Styles
-  unshift("css", "normalize.css")
+  if (isNotFalse(stack.normalize)) unshift("css", "normalize.css")
   push("css", this.options.styles)
 
   // Head: Language

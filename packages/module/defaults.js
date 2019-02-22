@@ -22,6 +22,7 @@ export default {
     keywords: ["nuxt", "stack"],
     backgroundColor: "#FFFFFF",
     themeColor: "#4fc08d",
-    image: "og.png"
+    image: "og.png",
+    normalize: true
   }
 }
