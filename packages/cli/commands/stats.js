@@ -4,6 +4,8 @@ const spawn = require("cross-spawn")
 const { NuxtCommand } = require("@nuxt/cli")
 const { common, server } = require("../options")
 
+const args = ["build", "--analyze", "--spa", "--no-generate"]
+
 NuxtCommand.run({
   name: "stats",
   description: "Show build stats with webpack analyser",
@@ -13,7 +15,6 @@ NuxtCommand.run({
     ...common
   },
   run(cmd) {
-    const args = ["build", "--analyze"].concat(cmd._argv)
-    spawn("nuxt", args, { stdio: "inherit" })
+    spawn("nuxt", args.concat(cmd._argv), { stdio: "inherit" })
   }
 })
