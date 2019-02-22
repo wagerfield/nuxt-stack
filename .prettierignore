@@ -8,6 +8,7 @@ dist
 .nuxt
 
 # files
+config.js
 nuxt.config.js
 jsconfig.json
 package.json
