@@ -12,6 +12,12 @@ export default {<%
   styleResources: {
     scss: ["styles/theme.scss"]
   },
+  stack: {
+    preconnect: [
+      "https://fonts.gstatic.com",
+      "https://fonts.googleapis.com"
+    ]
+  },
   webfonts: {
     google: {
       families: [
