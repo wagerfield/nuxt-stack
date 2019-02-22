@@ -16,7 +16,7 @@
     "test": "echo test $npm_package_name version $npm_package_version"
   },
   "dependencies": {
-    "nuxt": "^2.4.3",
+    "nuxt": "2.4.3",
     "nuxt-stack-cli": "0.0.0",
     "nuxt-stack-module": "0.0.0"
   }
