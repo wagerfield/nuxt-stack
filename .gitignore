@@ -14,6 +14,12 @@ sitemap.xml
 todo.md
 sw.js
 
+# examples
+examples/basic/*
+examples/fancy/*
+!examples/basic/package.json
+!examples/fancy/package.json
+
 # logs
 *.log
 

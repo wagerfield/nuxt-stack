@@ -28,6 +28,7 @@
     }
   },
   "packages": [
+    "examples/*",
     "packages/*"
   ]
 }
