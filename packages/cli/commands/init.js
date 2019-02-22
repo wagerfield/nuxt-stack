@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
+const readPkg = require("read-pkg")
 const writePkg = require("write-pkg")
 const { join } = require("path")
-const { get } = require("lodash")
+const { get, merge } = require("lodash")
+const { existsSync } = require("fs-extra")
 const { NuxtCommand } = require("@nuxt/cli")
 const { Template } = require("../utils")
 const { common } = require("../options")
@@ -48,7 +50,13 @@ NuxtCommand.run({
     vscode: {
       alias: "e",
       type: "boolean",
-      description: "Output VSCode settings and jsconfig"
+      description: "Output VSCode settings and jsconfig\nDefault: false"
+    },
+    hooks: {
+      alias: "k",
+      type: "boolean",
+      default: true,
+      description: "Inject scripts and hooks into package.json\nDefault: false"
     },
     ...common
   },
@@ -75,9 +83,13 @@ NuxtCommand.run({
     }
 
     // Package Fields
-    const pkg = api.compile(api.tpl("pkg.json"))
-    await writePkg(api.dst(), JSON.parse(pkg))
-    api.log(api.dst("package.json"))
+    if (cmd.argv.hooks) {
+      const pkgPath = api.dst("package.json")
+      const pkgOpts = { cwd: api.dst(), normalize: false }
+      const pkgBase = existsSync(pkgPath) ? readPkg.sync(pkgOpts) : {}
+      const pkgData = JSON.parse(api.compile(api.tpl("pkg.json")))
+      await writePkg(api.dst(), merge(pkgBase, pkgData))
+    }
 
     // Root Files
     api.copy(api.tpl("rootfiles"), api.dst())
