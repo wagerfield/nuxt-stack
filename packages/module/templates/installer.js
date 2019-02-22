@@ -8,5 +8,5 @@ export default (context, inject) => {
   const installer = createInstaller(Vue, opts)
   const prototypeKey = opts.prototypeKey || "$installer"
 
-  inject(prototypeKey, installer)
+  inject(prototypeKey.replace(/^\$/, ""), installer)
 }
