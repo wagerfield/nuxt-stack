@@ -6,7 +6,7 @@ How many times have you copied over ESLint, Prettier, Jest or Babel configs? Wha
 
 Nuxt Stack attempts to address this by laying a foundation of commonly used plugins while setting up the development environment needed to easily lint and test your application.
 
-The aim of Nuxt Stack is to inherit the developer experience of Nuxt while delivering a highly performant baseline app out of the box.
+The aim of Nuxt Stack is to inherit the developer experience of Nuxt while delivering a highly performant yet minimal app out of the box.
 
 ## Why Jest over AVA?
 
