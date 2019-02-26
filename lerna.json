@@ -4,12 +4,13 @@
   "useWorkspaces": true,
   "exact": true,
   "command": {
-    "init": {
-      "exact": true
-    },
-    "publish": {
+    "version": {
       "npmClient": "npm",
+      "allowBranch": "master",
+      "message": "chore(release): publish %v",
       "conventionalCommits": true,
+      "githubRelease": true,
+      "push": false,
       "yes": true
     }
   },
