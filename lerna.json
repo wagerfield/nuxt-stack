@@ -10,7 +10,6 @@
       "message": "chore(release): publish %v",
       "conventionalCommits": true,
       "githubRelease": true,
-      "push": false,
       "yes": true
     }
   },
