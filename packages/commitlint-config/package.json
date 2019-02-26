@@ -1,7 +1,7 @@
 {
   "name": "commitlint-config-nuxt-stack",
   "description": "Nuxt Stack CommitLint config",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "license": "MIT",
   "author": "Matthew Wagerfield <matthew@wagerfield.com>",
   "homepage": "https://github.com/wagerfield/nuxt-stack#readme",
