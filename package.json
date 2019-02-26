@@ -1,6 +1,6 @@
 {
   "name": "nuxt-stack-root",
-  "version": "0.4.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "commit": "commit",
