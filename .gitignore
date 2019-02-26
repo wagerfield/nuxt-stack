@@ -18,7 +18,9 @@ sw.js
 examples/basic/*
 examples/fancy/*
 !examples/basic/package.json
+!examples/basic/changelog.md
 !examples/fancy/package.json
+!examples/fancy/changelog.md
 
 # logs
 *.log
