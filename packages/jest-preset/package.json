@@ -1,7 +1,7 @@
 {
   "name": "jest-preset-nuxt-stack",
   "description": "Nuxt Stack Jest preset",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "license": "MIT",
   "author": "Matthew Wagerfield <matthew@wagerfield.com>",
   "homepage": "https://github.com/wagerfield/nuxt-stack#readme",
@@ -25,7 +25,7 @@
     "jest": "24.1.0",
     "jest-serializer-vue": "2.0.2",
     "jest-transform-stub": "2.0.0",
-    "nuxt-stack-utils": "0.4.3",
+    "nuxt-stack-utils": "0.4.4",
     "vue": "2.6.7",
     "vue-jest": "3.0.3",
     "vue-server-renderer": "2.6.7",
