@@ -1,7 +1,7 @@
 {
   "name": "nuxt-stack-module",
   "description": "Nuxt Stack module",
-  "version": "0.0.0",
+  "version": "0.3.0",
   "license": "MIT",
   "author": "Matthew Wagerfield <matthew@wagerfield.com>",
   "homepage": "https://github.com/wagerfield/nuxt-stack#readme",
@@ -26,7 +26,7 @@
     "lazysizes": "4.1.6",
     "node-sass": "4.11.0",
     "normalize.css": "8.0.1",
-    "nuxt-stack-templates": "0.0.0",
+    "nuxt-stack-templates": "0.3.0",
     "nuxt-svg-loader": "1.0.1",
     "sass-loader": "7.1.0",
     "vue-analytics": "5.16.2",
