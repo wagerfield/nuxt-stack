@@ -2,7 +2,6 @@
   "private": true,
   "scripts": {
     "commit": "commit",
-    "version": "lerna version",
     "release": "cross-env HUSKY_BYPASS=true lerna publish",
     "test": "lerna run test --stream",
     "diff": "lerna diff",
