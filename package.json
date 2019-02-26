@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "commit": "commit",
-    "release": "cross-env HUSKY_BYPASS=true lerna publish",
+    "release": "lerna publish",
     "test": "lerna run test --stream",
     "diff": "lerna diff",
     "lint": "eslint ."
@@ -10,7 +10,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "commit-msg": "[[ -n $HUSKY_BYPASS ]] || commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
