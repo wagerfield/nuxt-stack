@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "commit": "commit",
-    "version": "node -r dotenv/config && lerna publish",
+    "release": "node -r dotenv/config && lerna publish",
     "test": "lerna run test --stream",
     "diff": "lerna diff",
     "lint": "eslint ."
