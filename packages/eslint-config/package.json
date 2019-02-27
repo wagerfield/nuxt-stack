@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-nuxt-stack",
   "description": "Nuxt Stack ESLint config",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "license": "MIT",
   "author": "Matthew Wagerfield <matthew@wagerfield.com>",
   "homepage": "https://github.com/wagerfield/nuxt-stack#readme",
@@ -27,6 +27,6 @@
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-standard": "4.0.0",
     "eslint-plugin-vue": "5.2.2",
-    "nuxt-stack-utils": "0.4.5"
+    "nuxt-stack-utils": "0.4.6"
   }
 }
