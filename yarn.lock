@@ -1739,20 +1739,6 @@
   resolved "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@nuxt/babel-preset-app@2.4.3":
-  version "2.4.3"
-  resolved "https://registry.npmjs.org/@nuxt/babel-preset-app/-/babel-preset-app-2.4.3.tgz#5204dc1e533175f1566d206f32ccdd90477f3908"
-  integrity sha512-sRJijtpWtJD/3qgdXvjMDN03eeyrGGy9dudB10MwLesr2K8BHDXj6lTwkGu1Agmzhm6EREDPQm7EFDnicWGlsw==
-  dependencies:
-    "@babel/core" "^7.2.2"
-    "@babel/plugin-proposal-class-properties" "^7.3.0"
-    "@babel/plugin-proposal-decorators" "^7.3.0"
-    "@babel/plugin-syntax-dynamic-import" "^7.2.0"
-    "@babel/plugin-transform-runtime" "^7.2.0"
-    "@babel/preset-env" "^7.3.1"
-    "@babel/runtime" "^7.3.1"
-    "@vue/babel-preset-jsx" "^1.0.0-beta.2"
-
 "@nuxt/babel-preset-app@2.4.5":
   version "2.4.5"
   resolved "https://registry.npmjs.org/@nuxt/babel-preset-app/-/babel-preset-app-2.4.5.tgz#707043fe4686b7375df0917cca9134b7681ae9bf"
