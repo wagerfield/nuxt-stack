@@ -12,17 +12,17 @@
 
 [context."example/bench"]
   base = "examples/bench"
-  command = "yarn nuxt init -p basic && yarn generate"
+  command = "nuxt init -p basic && yarn generate"
   publish = "examples/bench/dist"
 
 [context."example/basic"]
   base = "examples/basic"
-  command = "yarn nuxt init -p basic && yarn generate"
+  command = "nuxt init -p basic && yarn generate"
   publish = "examples/basic/dist"
 
 [context."example/fancy"]
   base = "examples/fancy"
-  command = "yarn nuxt init -p fancy && yarn generate"
+  command = "nuxt init -p fancy && yarn generate"
   publish = "examples/fancy/dist"
 
 # STATS
