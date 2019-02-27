@@ -1,5 +1,5 @@
 import { resolve } from "path"
-import { copyFileSync, existsSync } from "fs-extra"
+import { copyFileSync, existsSync } from "fs"
 import { resolveTemplate } from "nuxt-stack-templates"
 import defaults from "./defaults"
 
