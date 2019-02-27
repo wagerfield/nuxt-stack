@@ -1,7 +1,7 @@
 {
   "name": "nuxt-stack-templates",
   "description": "Nuxt Stack templates",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "license": "MIT",
   "author": "Matthew Wagerfield <matthew@wagerfield.com>",
   "homepage": "https://github.com/wagerfield/nuxt-stack#readme",
