@@ -1789,15 +1789,6 @@
     std-env "^2.2.1"
     wrap-ansi "^4.0.0"
 
-"@nuxt/config@2.4.3":
-  version "2.4.3"
-  resolved "https://registry.npmjs.org/@nuxt/config/-/config-2.4.3.tgz#bfe38f2c2e43cea4503bb03af7f245a3f7f205df"
-  integrity sha512-SmruJidBc+NX8lsnkt92SyA8saN5N4S+yy+ut93uNSMA2ab9d42l/QtrEA1H4djLo4yyOXvnuTg5c867a3DIqg==
-  dependencies:
-    "@nuxt/utils" "2.4.3"
-    consola "^2.3.2"
-    std-env "^2.2.1"
-
 "@nuxt/config@2.4.5":
   version "2.4.5"
   resolved "https://registry.npmjs.org/@nuxt/config/-/config-2.4.5.tgz#78a03fe347006d5f3b620cb9acd73f62c13db61e"
@@ -1885,14 +1876,6 @@
     serve-static "^1.13.2"
     server-destroy "^1.0.1"
     ua-parser-js "^0.7.19"
-
-"@nuxt/utils@2.4.3":
-  version "2.4.3"
-  resolved "https://registry.npmjs.org/@nuxt/utils/-/utils-2.4.3.tgz#15d1b38ec7abbf9a35689bb9cf1c70b8c164ee21"
-  integrity sha512-yOKWFDqHH1RDZ8YdlfOyJ5JD+KnEgNsVVEbaZKPEqO7Or8j77i6J9niCuF+eF/IR7KiBWOzaGDJApxyAW/ZoSQ==
-  dependencies:
-    consola "^2.3.2"
-    serialize-javascript "^1.6.1"
 
 "@nuxt/utils@2.4.5":
   version "2.4.5"
