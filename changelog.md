@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.8](https://github.com/wagerfield/nuxt-stack/compare/v0.4.7...v0.4.8) (2019-02-27)
+
+### Bug Fixes
+
+- replace fs-extra with fs ([8066973](https://github.com/wagerfield/nuxt-stack/commit/8066973))
+
 ## [0.4.7](https://github.com/wagerfield/nuxt-stack/compare/v0.4.6...v0.4.7) (2019-02-27)
 
 ### Bug Fixes

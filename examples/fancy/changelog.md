@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.8](https://github.com/wagerfield/nuxt-stack/compare/v0.4.7...v0.4.8) (2019-02-27)
+
+**Note:** Version bump only for package nuxt-stack-example-fancy
+
 ## [0.4.7](https://github.com/wagerfield/nuxt-stack/compare/v0.4.6...v0.4.7) (2019-02-27)
 
 **Note:** Version bump only for package nuxt-stack-example-fancy
