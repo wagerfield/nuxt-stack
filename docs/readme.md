@@ -63,5 +63,5 @@ All plugins that Nuxt Stack adds are fully configurable, so you can _opt-in_ or 
 
 Check out the [configuration](/module/configuration.html) docs to learn more.
 
-[nuxt-stack-fancy]: https://nuxt-stack-fancy.netlify.com/
-[google-lighthouse-report]: https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://nuxt-stack-fancy.netlify.com/
+[nuxt-stack-fancy]: https://fancy-example.nuxtstack.org
+[google-lighthouse-report]: https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://fancy-example.nuxtstack.org
