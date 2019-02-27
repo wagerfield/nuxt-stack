@@ -8,6 +8,8 @@
 
 ## `svgLoader`
 
+## `dotenv`
+
 ## `eslint`
 
 ## `analytics`
