@@ -1958,6 +1958,13 @@
     webpack-node-externals "^1.7.2"
     webpackbar "^3.1.5"
 
+"@nuxtjs/dotenv@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/dotenv/-/dotenv-1.3.0.tgz#fcfd8fa9da767ce1a79c11104ab998d610e23731"
+  integrity sha512-gRs/NZJip+bame83Z4cQxMrMlVl0UjtXgM9TDIC37kLjUGbsvj/XJjAUbYgvubE1qtsc/PaNTaYXj5H73rpO/A==
+  dependencies:
+    dotenv "^6.0.0"
+
 "@nuxtjs/icon@3.0.0-beta.8":
   version "3.0.0-beta.8"
   resolved "https://registry.npmjs.org/@nuxtjs/icon/-/icon-3.0.0-beta.8.tgz#182da020fac0b2ce5f248b6acc7538b8464b390c"
@@ -4733,6 +4740,11 @@ dot-prop@^4.1.1, dot-prop@^4.2.0:
   integrity sha512-tUMXrxlExSW6U2EXiiKGSBVdYgtV8qlHL+C10TsW4PURY/ic+eaysnSkwB4kA/mBlCyy/IKDJ+Lc3wbWeaXtuQ==
   dependencies:
     is-obj "^1.0.0"
+
+dotenv@^6.0.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
+  integrity sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w==
 
 duplexer@^0.1.1:
   version "0.1.1"
@@ -12783,10 +12795,10 @@ vue-server-renderer@2.6.7, vue-server-renderer@^2.5.22:
     serialize-javascript "^1.3.0"
     source-map "0.5.6"
 
-vue-static-data@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/vue-static-data/-/vue-static-data-0.3.0.tgz#d226a4e47c5f4b1e7f0ac6cf505ff0d82320b73a"
-  integrity sha512-YXgTCqZFhLgPSwQa+31DyU2c5t6PYjnutLkWF7bxGtwX0D9bZnaT0KLL8we564+2bWLM2WxPzFphyBnXD0uSBQ==
+vue-static-data@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/vue-static-data/-/vue-static-data-0.4.0.tgz#f9aa6b49c7beabfa217c98dd8dcb2b0e50b3c462"
+  integrity sha512-9kiQ2VtYZWvAwZr9oV/eC4SgHbn4IdVib0GdKqTmkS9dslNJRbVz1wi4dJ6aPR+V0OP2yNoCR5liSD8y9UxGrA==
   dependencies:
     isobject "^3.0.1"
 

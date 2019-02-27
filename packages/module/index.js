@@ -51,6 +51,14 @@ export default async function NuxtStack(options) {
   assign("server.host", "0.0.0.0")
   assign("server.port", "5000")
 
+  // Dotenv
+  if (isNotFalse(this.options.dotenv)) {
+    this.requireModule({
+      src: "@nuxtjs/dotenv",
+      options: this.options.dotenv
+    })
+  }
+
   // PWA
   if (isNotFalse(this.options.pwa)) {
     assign("manifest.name", stack.name)
