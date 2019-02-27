@@ -12,32 +12,32 @@
 
 [context."example/bench"]
   base = "examples/bench"
-  command = "npx nuxt init -p basic && yarn generate"
+  command = "nuxt init -p basic && yarn generate"
   publish = "examples/bench/dist"
 
 [context."example/basic"]
   base = "examples/basic"
-  command = "npx nuxt init -p basic && yarn generate"
+  command = "nuxt init -p basic && yarn generate"
   publish = "examples/basic/dist"
 
 [context."example/fancy"]
   base = "examples/fancy"
-  command = "npx nuxt init -p fancy && yarn generate"
+  command = "nuxt init -p fancy && yarn generate"
   publish = "examples/fancy/dist"
 
 # STATS
 
 [context."stats/bench"]
   base = "examples/bench"
-  command = "yarn stats"
+  command = "nuxt init -p basic && yarn stats"
   publish = "examples/bench/.nuxt/stats"
 
 [context."stats/basic"]
   base = "examples/basic"
-  command = "yarn stats"
+  command = "nuxt init -p basic && yarn stats"
   publish = "examples/basic/.nuxt/stats"
 
 [context."stats/fancy"]
   base = "examples/fancy"
-  command = "yarn stats"
+  command = "nuxt init -p fancy && yarn stats"
   publish = "examples/fancy/.nuxt/stats"
