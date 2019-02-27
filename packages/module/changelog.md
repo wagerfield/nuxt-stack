@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.6](https://github.com/wagerfield/nuxt-stack/compare/v0.4.5...v0.4.6) (2019-02-27)
+
+### Bug Fixes
+
+- **deps:** update dependency @nuxt/config to v2.4.5 ([#8](https://github.com/wagerfield/nuxt-stack/issues/8)) ([8fdaa5e](https://github.com/wagerfield/nuxt-stack/commit/8fdaa5e))
+- **deps:** update dependency @nuxtjs/pwa to v3.0.0-beta.10 ([#10](https://github.com/wagerfield/nuxt-stack/issues/10)) ([d4793b4](https://github.com/wagerfield/nuxt-stack/commit/d4793b4))
+
 ## [0.4.5](https://github.com/wagerfield/nuxt-stack/compare/v0.4.4...v0.4.5) (2019-02-27)
 
 ### Features
