@@ -1,6 +1,6 @@
 [build]
   base = "docs"
-  command = "yarn build"
+  command = "npm run build"
   publish = "docs/.vuepress/dist"
 
 [[redirects]]
@@ -12,32 +12,32 @@
 
 [context."example/bench"]
   base = "examples/bench"
-  command = "nuxt init -p basic && yarn generate"
+  command = "npx nuxt init -p basic && npm run generate"
   publish = "examples/bench/dist"
 
 [context."example/basic"]
   base = "examples/basic"
-  command = "nuxt init -p basic && yarn generate"
+  command = "npx nuxt init -p basic && npm run generate"
   publish = "examples/basic/dist"
 
 [context."example/fancy"]
   base = "examples/fancy"
-  command = "nuxt init -p fancy && yarn generate"
+  command = "npx nuxt init -p fancy && npm run generate"
   publish = "examples/fancy/dist"
 
 # STATS
 
 [context."stats/bench"]
   base = "examples/bench"
-  command = "nuxt init -p basic && yarn stats"
+  command = "npx nuxt init -p basic && npm run stats"
   publish = "examples/bench/.nuxt/stats"
 
 [context."stats/basic"]
   base = "examples/basic"
-  command = "nuxt init -p basic && yarn stats"
+  command = "npx nuxt init -p basic && npm run stats"
   publish = "examples/basic/.nuxt/stats"
 
 [context."stats/fancy"]
   base = "examples/fancy"
-  command = "nuxt init -p fancy && yarn stats"
+  command = "npx nuxt init -p fancy && npm run stats"
   publish = "examples/fancy/.nuxt/stats"
