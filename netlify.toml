@@ -8,36 +8,38 @@
   to = "https://nuxtstack.org/:splat"
   force = true
 
-# EXAMPLES
+# EXAMPLE: BENCHMARK
 
-[context."example/bench"]
-  base = "examples/bench"
+[context.benchmark-example]
+  base = "examples/benchmark"
   command = "nuxt init -p basic && npm run generate"
-  publish = "examples/bench/dist"
+  publish = "examples/benchmark/dist"
 
-[context."example/basic"]
+[context.benchmark-stats]
+  base = "examples/bench"
+  command = "nuxt init -p basic && npm run stats"
+  publish = "examples/benchmark/.nuxt/stats"
+
+# EXAMPLE: BASIC
+
+[context.basic-example]
   base = "examples/basic"
   command = "nuxt init -p basic && npm run generate"
   publish = "examples/basic/dist"
 
-[context."example/fancy"]
+[context.basic-stats]
+  base = "examples/bench"
+  command = "nuxt init -p basic && npm run stats"
+  publish = "examples/basic/.nuxt/stats"
+
+# EXAMPLE: FANCY
+
+[context.fancy-example]
   base = "examples/fancy"
   command = "nuxt init -p fancy && npm run generate"
   publish = "examples/fancy/dist"
 
-# STATS
-
-[context."stats/bench"]
+[context.fancy-stats]
   base = "examples/bench"
-  command = "nuxt init -p basic && npm run stats"
-  publish = "examples/bench/.nuxt/stats"
-
-[context."stats/basic"]
-  base = "examples/basic"
-  command = "nuxt init -p basic && npm run stats"
-  publish = "examples/basic/.nuxt/stats"
-
-[context."stats/fancy"]
-  base = "examples/fancy"
   command = "nuxt init -p fancy && npm run stats"
   publish = "examples/fancy/.nuxt/stats"

@@ -19,11 +19,11 @@ examples/basic/*
 !examples/basic/changelog.md
 !examples/basic/package.json
 
-# bench example
-examples/bench/*
-!examples/bench/changelog.md
-!examples/bench/package.json
-!examples/bench/nuxt.config.js
+# benchmark example
+examples/benchmark/*
+!examples/benchmark/changelog.md
+!examples/benchmark/package.json
+!examples/benchmark/nuxt.config.js
 
 # fancy example
 examples/fancy/*
