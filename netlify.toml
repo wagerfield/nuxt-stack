@@ -16,7 +16,7 @@
   publish = "examples/benchmark/dist"
 
 [context.benchmark-stats]
-  base = "examples/bench"
+  base = "examples/benchmark"
   command = "nuxt init -p basic && npm run stats"
   publish = "examples/benchmark/.nuxt/stats"
 
@@ -28,7 +28,7 @@
   publish = "examples/basic/dist"
 
 [context.basic-stats]
-  base = "examples/bench"
+  base = "examples/basic"
   command = "nuxt init -p basic && npm run stats"
   publish = "examples/basic/.nuxt/stats"
 
@@ -40,6 +40,6 @@
   publish = "examples/fancy/dist"
 
 [context.fancy-stats]
-  base = "examples/bench"
+  base = "examples/fancy"
   command = "nuxt init -p fancy && npm run stats"
   publish = "examples/fancy/.nuxt/stats"
