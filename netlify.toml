@@ -2,3 +2,42 @@
   base = "docs"
   command = "yarn build"
   publish = "docs/.vuepress/dist"
+
+[[redirects]]
+  from = "https://nuxtstack.netlify.com/*"
+  to = "https://nuxtstack.org/:splat"
+  force = true
+
+# EXAMPLES
+
+[context."example/bench"]
+  base = "examples/bench"
+  command = "yarn nuxt init -p basic && yarn generate"
+  publish = "examples/bench/dist"
+
+[context."example/basic"]
+  base = "examples/basic"
+  command = "yarn nuxt init -p basic && yarn generate"
+  publish = "examples/basic/dist"
+
+[context."example/fancy"]
+  base = "examples/fancy"
+  command = "yarn nuxt init -p fancy && yarn generate"
+  publish = "examples/fancy/dist"
+
+# STATS
+
+[context."stats/bench"]
+  base = "examples/bench"
+  command = "yarn stats"
+  publish = "examples/bench/.nuxt/stats"
+
+[context."stats/basic"]
+  base = "examples/basic"
+  command = "yarn stats"
+  publish = "examples/basic/.nuxt/stats"
+
+[context."stats/fancy"]
+  base = "examples/fancy"
+  command = "yarn stats"
+  publish = "examples/fancy/.nuxt/stats"
