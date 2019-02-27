@@ -1,0 +1,44 @@
+{
+  "name": "nuxt-stack-example-bench",
+  "version": "0.4.5",
+  "private": true,
+  "dependencies": {
+    "nuxt": "2.4.3",
+    "nuxt-stack": "0.4.5"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "clean": "nuxt clean",
+    "serve": "nuxt serve",
+    "start": "nuxt start",
+    "stats": "nuxt stats",
+    "build": "nuxt build --modern=server",
+    "generate": "nuxt generate --modern=client",
+    "format": "nuxt format --write --lint '*.{md}' 'src/**/*.{js,json,scss,vue}'",
+    "lint": "nuxt lint . --fix",
+    "test": "nuxt test",
+    "commit": "commit"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "nuxt format --write --lint",
+      "nuxt lint --fix",
+      "nuxt test --related",
+      "git add"
+    ],
+    "src/**/*.{html,json,scss}": [
+      "nuxt format --write",
+      "git add"
+    ],
+    "*.{md}": [
+      "nuxt format --write",
+      "git add"
+    ]
+  }
+}
