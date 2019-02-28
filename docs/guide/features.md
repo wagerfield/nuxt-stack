@@ -1,1 +1,4 @@
 # Features
+
+- ESLint
+- Prettier

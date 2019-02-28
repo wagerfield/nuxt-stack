@@ -1,11 +1,11 @@
 module.exports = {
   title: "Nuxt Stack",
   description: [
-    "Supercharge Nuxt with a suite of modules, plugins and commands",
-    "for building performant applications with minimal configuration."
+    "Supercharge Nuxt with a suite of modules and commands for",
+    "building performant applications with zero configuration."
   ].join(" "),
   head: [
-    ["link", { rel: "icon", href: `/icon.png` }],
+    ["link", { rel: "icon", href: `/icons/64x64.png` }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
     ["meta", { name: "theme-color", content: "#4fc08d" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
@@ -40,6 +40,7 @@ module.exports = {
       ],
       "/module/": [
         "",
+        "plugins",
         "configuration"
       ]
     },

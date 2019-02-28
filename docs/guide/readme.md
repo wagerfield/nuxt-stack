@@ -2,8 +2,8 @@
 
 Nuxt Stack comes in two parts:
 
-- `nuxt-stack-cli` » Suite of Nuxt [commands](/commands/) for linting, testing, formatting etc.
-- `nuxt-stack-module` » Nuxt [module](/module/) that configures and installs a suite of plugins
+- `nuxt-stack-cli` » Suite of Nuxt CLI [commands](/commands/) for linting, testing, formatting etc.
+- `nuxt-stack-module` » Nuxt [module](/module/) that installs and configures a collection of [plugins](/module/plugins.html)
 
 Though these packages can be installed separately, you will get the most out of Nuxt Stack by installing `nuxt-stack` which includes both.
 
@@ -14,6 +14,9 @@ To get an overview of the _features_ provided by Nuxt Stack [see here](./feature
 ## Get Started
 
 ```bash
+# Make a new directory
+mkdir example && cd example
+
 # Install dependencies
 yarn add nuxt nuxt-stack
 
