@@ -1,4 +1,4 @@
-<p align="center"><img style="height:300px" src="assets/banner.png"/></p>
+<p align="center"><img style="width:600px" src="assets/banner.png"/></p>
 
 Supercharge Nuxt with a suite of modules and commands for building performant applications with zero configuration.
 
