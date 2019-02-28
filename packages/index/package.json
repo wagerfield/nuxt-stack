@@ -1,6 +1,6 @@
 {
   "name": "nuxt-stack",
-  "description": "Stack of modules and scripts for building performant Nuxt apps",
+  "description": "Stack of modules and commands for building performant applications with zero configuration",
   "version": "0.4.8",
   "license": "MIT",
   "author": "Matthew Wagerfield <matthew@wagerfield.com>",
