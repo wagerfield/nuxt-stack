@@ -1,6 +1,6 @@
-<p align="left"><img width="500" src="assets/banner.png"/></p>
+<p align="center"><img width="500" src="assets/banner.png"/></p>
 
-Supercharge Nuxt with a suite of modules and commands for building performant applications with zero configuration.
+_Supercharge Nuxt with a suite of modules and commands for building performant applications with zero configuration._
 
 ## Documentation
 
