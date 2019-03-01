@@ -3,6 +3,7 @@ import {
   assoc,
   inject,
   insert,
+  isNotNil,
   isNotEmpty,
   isNotFalse,
   preconnectLink
@@ -56,6 +57,14 @@ export default async function NuxtStack(options) {
     this.requireModule({
       src: "@nuxtjs/dotenv",
       options: this.options.dotenv
+    })
+  }
+
+  // Axios
+  if (isNotNil(this.options.axios)) {
+    this.requireModule({
+      src: "@nuxtjs/axios",
+      options: this.options.axios
     })
   }
 
