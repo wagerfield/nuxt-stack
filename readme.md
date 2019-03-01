@@ -1,6 +1,6 @@
 <p align="center"><img width="500" src="assets/banner.png"/></p>
 
-Supercharge Nuxt with a suite of modules and commands for building performant applications with zero configuration.
+> Supercharge Nuxt with a suite of modules and commands for building performant applications with zero configuration.
 
 ## Features
 
@@ -8,7 +8,7 @@ Supercharge Nuxt with a suite of modules and commands for building performant ap
 - Write tests for Vue components without having to configure Jest
 - Have ESLint and Prettier lint and format your code automatically
 - Ships with popular modules like `@nuxtjs/pwa` and `@nuxtjs/axios`
-- Only includes plugins that you use keeping bundles as small as possible
+- Only includes plugins that you use—keeping bundles as small as possible
 - Preconfigured with `normalize.css`, `sass-loader` and `@nuxtjs/style-resources`
 - Suite of `nuxt` commands for linting, formatting, testing and analysing your application
 - Extensive [documentation](https://nuxtstack.org) with live examples
