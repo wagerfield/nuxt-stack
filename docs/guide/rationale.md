@@ -6,7 +6,7 @@ How many times have you copied across ESLint, Prettier, Jest or Babel configs? W
 
 How many times have you installed `@nuxtjs/axios`, `@nuxtjs/pwa` or `webfontloader`?
 
-If the answer to these questions is "quite a few" then Nuxt Stack _might_ be your new best friend.
+If the answer to these questions is "quite a few" then Nuxt Stack _might_ appeal to you with it's DRY (Don't Repeat Yourself) principles.
 
 ## Why nuxt-stack over create-nuxt-app?
 
@@ -14,11 +14,11 @@ If the answer to these questions is "quite a few" then Nuxt Stack _might_ be you
 
 There's something deeply satisfying about starting a new Nuxt project from scratch with nothing but `nuxt` as a dependency and a pages directory with a single `index.vue` file in it. There's so much going on behind the scenes when you run `nuxt` from the command line—but you barely need think about it. Nuxt takes care of wiring up Webpack, Babel and Vue for development _and_ production with routing, SSR and static site generation thrown in the mix. The DX (developer experience) is _fantastic_.
 
-However, as soon as you start integrating and configuring tools like ESLint, Prettier and Jest...or commonly used modules like `@nuxtjs/axios` and `@nuxtjs/pwa` Nuxt's zen starts to fade.
+However, as soon as you start integrating and configuring tools like ESLint, Prettier and Jest...or popular modules like `@nuxtjs/axios` and `@nuxtjs/pwa` Nuxt's zen starts to fade a little.
 
-Nuxt Stack attempts to remedy this by assembling a suite of [commonly used plugins](/module/plugins.html) and setting up the development tools needed to lint, format and test your application.
+Nuxt Stack attempts to remedy this by assembling a suite of [popular plugins](/module/plugins.html) and setting up the development tools needed to lint, format and test your application.
 
-But rather than flooding the project with files and dependencies, Nuxt Stack takes a leaf out of Nuxt's book and tries to hide away as much configuration as possible. Some config files are still required in order for your IDE to give you linting and formatting hints, but these configs are _very_ minimal since they inherit from Nuxt Stack presets:
+But rather than flooding the project with files and dependencies, Nuxt Stack attempts to walk in Nuxt's footsteps by hiding away as much configuration as possible. Some config files are still required in order for your IDE to give you linting and formatting hints, but these configs are _very_ minimal since they inherit from Nuxt Stack presets like the ones below.
 
 ```js
 // .eslintrc.js
@@ -32,15 +32,15 @@ module.exports = {
 module.exports = require("prettier-config-nuxt-stack")
 ```
 
-The aspiration of Nuxt Stack is to try and match the developer experience of Nuxt while delivering a highly performant yet minimal PWA out of the box.
+The aspiration of Nuxt Stack is to try and match the developer experience of Nuxt while delivering a highly performant yet minimal PWA template project out of the box.
 
 Much like Nuxt, every aspect of Nuxt Stack can be configured, turned on or off as required. If you don't like parts of the ESLint or Prettier config you can overwrite them. If you don't need some of the plugins you can disable them. The baseline configuration of Nuxt Stack is the result of developing numerous Nuxt applications and identifying the commonalities between them.
 
-Finally, Nuxt Stack adds a number of commands to Nuxt's CLI for performing common tasks such as linting, formatting and testing. Alongside `nuxt build` and `nuxt generate` you can do things like `nuxt lint`, `nuxt format` and `nuxt test`. These commands simply proxy to ESLint, Prettier and Jest respectively, but are preconfigured to work with the Nuxt app project structure, resolve path aliases and support Vue Single File Components.
+Finally, Nuxt Stack adds a number of commands to Nuxt's CLI for performing common tasks such as linting, formatting and testing. Alongside `nuxt build` and `nuxt generate` you can do things like `nuxt lint`, `nuxt format` and `nuxt test`. These commands proxy to ESLint, Prettier and Jest respectively, but are preconfigured to work with the Nuxt app project structure, resolve path aliases and support Vue Single File Components when writing tests.
 
-## Why SASS over Stylus?
+## Why SASS over Stylus or PostCSS?
 
-Prettier doesn't currently support Stylus, so SASS was chosen as the default CSS preprocessor.
+Prettier doesn't currently support Stylus and some PostCSS syntax flavours, so SASS was chosen as the default CSS preprocessor.
 
 What about LESS? Though Prettier does support LESS, [SASS is the more popular of the two][sass-vs-less].
 
@@ -48,7 +48,7 @@ What about LESS? Though Prettier does support LESS, [SASS is the more popular of
 Nuxt Stack isn't doing anything special with SASS. It simply lists `node-sass` and `sass-loader` as dependencies so they don't need to be installed alongside `nuxt-stack`. This keeps the project dependencies nice and lean from the outset.
 :::
 
-If you're happy to forgo formatting from Prettier or would prefer to use LESS, simply install the CSS preprocessor and Webpack loader as you normally would.
+If you're happy to forgo formatting from Prettier or would prefer to use LESS, simply install the CSS preprocessor and Webpack loader of your choosing as you normally would.
 
 ## Why Jest over AVA?
 
