@@ -27,7 +27,7 @@ Check out the lists below for a breakdown of all the dependencies included with 
 
 ## CLI Dependencies
 
-### General
+### Utility
 
 - `consola`
 - `cross-env`

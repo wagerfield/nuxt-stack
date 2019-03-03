@@ -15,11 +15,11 @@ Alongside `nuxt build` and `nuxt generate`, you can now run `nuxt init` and `nux
 | [`nuxt stats`](./stats.html)   | Generate a Webpack Bundle Analyzer report showing client bundle build stats |
 
 ::: tip
-To view the usage dialog for any command add `--help` or `-h`.
+To view the usage dialog for any command add `--help` or `-h`
 
 For example: `nuxt init -h` or `nuxt test --help`
 
-The same information can also be found on the respective command page by clicking the command name in the table above or in the navigation sidebar.
+The same information can also be found on the respective command page by clicking the command in the table above or in the navigation sidebar.
 :::
 
 [nuxt-commands]: https://nuxtjs.org/guide/modules#module-package-commands
