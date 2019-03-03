@@ -2,7 +2,7 @@
 
 After developing a handful of Nuxt applications, you have probably found yourself referring back to previous projects to copy and paste stuff across. You've also probably installed and configured the same modules more than once.
 
-Hor example—how many times have you copied across ESLint, Prettier, Jest or Babel configs? What about ignore files for these tools? Globbing patterns to lint and test your code? Configuring Husky and Lint Staged to put these tools to work before you commit your code?
+How many times have you copied across ESLint, Prettier, Jest or Babel configs? What about ignore files for these tools? Globbing patterns to lint and test your code? Configuring Husky and Lint Staged to put these tools to work before you commit your code?
 
 How many times have you installed `@nuxtjs/axios`, `@nuxtjs/pwa` or `webfontloader`?
 
@@ -18,7 +18,7 @@ However, as soon as you start integrating and configuring tools like ESLint, Pre
 
 Nuxt Stack attempts to remedy this by assembling a suite of [popular plugins](/module/plugins.html) and setting up the development tools needed to lint, format and test your application.
 
-But rather than flooding the project with files and dependencies, Nuxt Stack attempts to walk in Nuxt's footsteps by hiding away as much configuration as possible. Some config files are still required in order for your IDE to give you linting and formatting hints, but these configs are _very_ minimal since they inherit from Nuxt Stack presets like the ones below.
+But rather than flooding the project with files and dependencies, Nuxt Stack attempts to walk in Nuxt's footsteps by hiding away as much configuration as possible. Some config files are still required in order for your IDE to give you linting and formatting hints, but these configs are _very minimal_ since they inherit from Nuxt Stack presets like the ones below.
 
 ```js
 // .eslintrc.js
@@ -40,7 +40,9 @@ Finally, Nuxt Stack adds a number of commands to Nuxt's CLI for performing commo
 
 ## Why SASS over Stylus or PostCSS?
 
-Prettier doesn't currently support Stylus and some flavours of PostCSS, so SASS was chosen as the default CSS preprocessor.
+Prettier doesn't currently support Stylus and some flavours of PostCSS custom syntax.
+
+SASS was chosen as the default CSS preprocessor due to it's popularity, maturity, stability and formatting support from Prettier.
 
 What about LESS? Though Prettier does support LESS, [SASS is the more popular of the two][sass-vs-less].
 

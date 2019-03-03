@@ -6,7 +6,7 @@ It's useful to know which dependencies are included with Nuxt Stack so you don't
 
 Check out the lists below for a breakdown of all the dependencies included with the [module](#module-dependencies) and [CLI](#cli-dependencies).
 
-## Nuxt Stack Module Dependencies
+## Module Dependencies
 
 - `@nuxtjs/axios`
 - `@nuxtjs/dotenv`
@@ -25,7 +25,7 @@ Check out the lists below for a breakdown of all the dependencies included with 
 - `node-sass` + `sass-loader`
 - `eslint` + `eslint-loader`
 
-## Nuxt Stack CLI Dependencies
+## CLI Dependencies
 
 ### General
 

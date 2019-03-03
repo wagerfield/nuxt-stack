@@ -19,20 +19,20 @@ Nuxt Stack is composed of two parts:
 
 The `nuxt-stack` module also installs and configures the following modules and plugins:
 
-| Module               | Description                                                           |
-| :------------------- | :-------------------------------------------------------------------- |
-| `@nuxtjs/dotenv`     | Loads a `.env` and merges the key pairs with Nuxt's `env` object      |
-| `@nuxtjs/axios`      | Nuxt `axios` module for making promise based HTTP requests            |
-| `@nuxtjs/pwa`        | Collection of modules for developing performant PWAs                  |
-| `@nuxtjs/sitemap`    | Automatically generate or serve a dynamic sitemap                     |
-| `nuxt-svg-loader`    | Import SVGs as Vue Single File components                             |
-| `webfontloader`      | Load custom webfonts from services like Google and Typekit            |
-| `vue-analytics`      | Google Analytics integration for Vue and Nuxt                         |
-| `lazysizes`          | Lazily load images and videos only when they become visible           |
-| `vue-pwa-installer`  | Interface for installing a PWA to the home screen                     |
-| `vue-lazy-hydration` | Lazily hydrate Vue components using different strategies              |
-| `vue-tabbing`        | Reactive flag for knowing when a user is navigating using the tab key |
-| `vue-static-data`    | Declare static (non-reactive) data within Vue components              |
+| Module               | Description                                                      |
+| :------------------- | :--------------------------------------------------------------- |
+| `@nuxtjs/dotenv`     | Loads `.env` and merges the key pairs with Nuxt's `env` object   |
+| `@nuxtjs/axios`      | Nuxt `axios` module for making promise based HTTP requests       |
+| `@nuxtjs/pwa`        | Collection of modules for developing performant PWAs             |
+| `@nuxtjs/sitemap`    | Automatically generate or serve a dynamic sitemap                |
+| `nuxt-svg-loader`    | Import SVGs as Vue Single File components                        |
+| `webfontloader`      | Load custom webfonts from services like Google and Typekit       |
+| `vue-analytics`      | Google Analytics integration for Vue and Nuxt                    |
+| `lazysizes`          | Lazily load images and videos only when they become visible      |
+| `vue-pwa-installer`  | Interface for installing a PWA to the home screen                |
+| `vue-lazy-hydration` | Lazily hydrate Vue components using different strategies         |
+| `vue-tabbing`        | Reactive flag triggered by keyboard navigation using the tab key |
+| `vue-static-data`    | Declare static (non-reactive) data within Vue components         |
 
 ## Nuxt Stack Commands
 
