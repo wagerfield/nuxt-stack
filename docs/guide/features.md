@@ -2,16 +2,39 @@
 
 Nuxt Stack is composed of two parts:
 
+- Nuxt [module](/module/) that installs and configures a collection of [modules and plugins](/module/plugins.html)
 - Suite of [commands](/commands/) added to Nuxt's CLI for testing, linting, formatting etc.
-- Nuxt [module](/module/) that installs and configures a collection of plugins
 
-The features below have been partitioned and organised accordingly.
+## Nuxt Stack Module
 
-## Module
-
+- Prepends `normalize.css` to Nuxt's `css` array
+- Installs `node-sass` and `sass-loader`
+- Integrates `@nuxtjs/style-resources`
+- Adds a `styles` alias for `css` in Nuxt's config
+- Specify common meta data such as name, description and lang in one place and have it automatically cloned to head attributes, meta tags and the PWA manifest
+- Easily add `preconnect` links for improved resource fetching performance
+- Optimises Nuxt's `generate` config for Netlify with fallback enabled
+- Configures Nuxt's server host and port to work across the network so you can view your app during development on another device
 - ESLint integration with Webpack for linting and fixing your code automatically during development
 
-## Commands
+The `nuxt-stack` module also installs and configures the following modules and plugins:
+
+| Module               | Description                                                           |
+| :------------------- | :-------------------------------------------------------------------- |
+| `@nuxtjs/dotenv`     | Loads a `.env` and merges the key pairs with Nuxt's `env` object      |
+| `@nuxtjs/axios`      | Nuxt `axios` module for making promise based HTTP requests            |
+| `@nuxtjs/pwa`        | Collection of modules for developing performant PWAs                  |
+| `@nuxtjs/sitemap`    | Automatically generate or serve a dynamic sitemap                     |
+| `nuxt-svg-loader`    | Import SVGs as Vue Single File components                             |
+| `webfontloader`      | Load custom webfonts from services like Google and Typekit            |
+| `vue-analytics`      | Google Analytics integration for Vue and Nuxt                         |
+| `lazysizes`          | Lazily load images and videos only when they become visible           |
+| `vue-pwa-installer`  | Interface for installing a PWA to the home screen                     |
+| `vue-lazy-hydration` | Lazily hydrate Vue components using different strategies              |
+| `vue-tabbing`        | Reactive flag for knowing when a user is navigating using the tab key |
+| `vue-static-data`    | Declare static (non-reactive) data within Vue components              |
+
+## Nuxt Stack Commands
 
 - Generate project templates with `nuxt init`
   - Pick from two templates: "basic" or "fancy"
