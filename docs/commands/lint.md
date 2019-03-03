@@ -1,1 +1,1 @@
-# Lint
+# `nuxt lint`

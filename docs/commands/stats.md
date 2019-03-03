@@ -1,1 +1,1 @@
-# Stats
+# `nuxt stats`

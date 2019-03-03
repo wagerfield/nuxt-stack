@@ -1,1 +1,1 @@
-# Clean
+# `nuxt clean`

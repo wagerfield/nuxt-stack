@@ -1,1 +1,1 @@
-# Serve
+# `nuxt serve`

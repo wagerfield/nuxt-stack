@@ -1,1 +1,1 @@
-# Format
+# `nuxt format`

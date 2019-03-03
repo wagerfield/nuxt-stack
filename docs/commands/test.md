@@ -1,1 +1,1 @@
-# Test
+# `nuxt test`

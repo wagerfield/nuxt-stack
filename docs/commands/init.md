@@ -1,1 +1,1 @@
-# Init
+# `nuxt init`
