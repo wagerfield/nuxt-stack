@@ -12,6 +12,8 @@
 
 ## `eslint`
 
+## `axios`
+
 ## `analytics`
 
 ## `lazysizes`
