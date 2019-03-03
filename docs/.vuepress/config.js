@@ -1,4 +1,5 @@
 module.exports = {
+  ga: "UA-135327752-1",
   title: "Nuxt Stack",
   description: [
     "Supercharge Nuxt with a suite of modules and commands for",
