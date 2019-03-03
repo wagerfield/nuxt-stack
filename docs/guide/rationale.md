@@ -2,15 +2,15 @@
 
 After developing a handful of Nuxt applications, you have probably found yourself referring back to previous projects to copy and paste stuff across. You've also probably installed and configured the same modules more than once.
 
-How many times have you copied across ESLint, Prettier, Jest or Babel configs? What about ignore files for these tools? Globbing patterns to lint and test your code? Configuring Husky and Lint Staged to put these tools to work before you commit your code?
+Hor example—how many times have you copied across ESLint, Prettier, Jest or Babel configs? What about ignore files for these tools? Globbing patterns to lint and test your code? Configuring Husky and Lint Staged to put these tools to work before you commit your code?
 
 How many times have you installed `@nuxtjs/axios`, `@nuxtjs/pwa` or `webfontloader`?
 
-If the answer to these questions is "quite a few" then Nuxt Stack _might_ appeal to you with it's DRY (Don't Repeat Yourself) principles.
+If the answer to some of these questions is "quite a few" then Nuxt Stack _might_ appeal to you with it's DRY (Don't Repeat Yourself) principles.
 
 ## Why nuxt-stack over create-nuxt-app?
 
-`create-nuxt-app` addresses many of these problems by providing a CLI for generating project templates with all the files, dependencies and configuration you need to get going. This saves a lot of time, but it veers away from the minimal design that makes `nuxt` so awesome.
+`create-nuxt-app` addresses many of these problems by providing a CLI for generating project templates with all the files, dependencies and configuration you need to get going. This saves a lot of time, but it veers away from the minimal origins of `nuxt` that makes it so awesome.
 
 There's something deeply satisfying about starting a new Nuxt project from scratch with nothing but `nuxt` as a dependency and a pages directory with a single `index.vue` file in it. There's so much going on behind the scenes when you run `nuxt` from the command line—but you barely need think about it. Nuxt takes care of wiring up Webpack, Babel and Vue for development _and_ production with routing, SSR and static site generation thrown in the mix. The DX (developer experience) is _fantastic_.
 
@@ -32,7 +32,7 @@ module.exports = {
 module.exports = require("prettier-config-nuxt-stack")
 ```
 
-The aspiration of Nuxt Stack is to try and match the developer experience of Nuxt while delivering a highly performant yet minimal PWA template project out of the box.
+The aspiration of Nuxt Stack is to complement the developer experience of Nuxt while delivering a highly performant yet minimal PWA template project out of the box.
 
 Much like Nuxt, every aspect of Nuxt Stack can be configured, turned on or off as required. If you don't like parts of the ESLint or Prettier config you can overwrite them. If you don't need some of the plugins you can disable them. The baseline configuration of Nuxt Stack is the result of developing numerous Nuxt applications and identifying the commonalities between them.
 
@@ -40,12 +40,12 @@ Finally, Nuxt Stack adds a number of commands to Nuxt's CLI for performing commo
 
 ## Why SASS over Stylus or PostCSS?
 
-Prettier doesn't currently support Stylus and some PostCSS syntax flavours, so SASS was chosen as the default CSS preprocessor.
+Prettier doesn't currently support Stylus and some flavours of PostCSS, so SASS was chosen as the default CSS preprocessor.
 
 What about LESS? Though Prettier does support LESS, [SASS is the more popular of the two][sass-vs-less].
 
 ::: tip NOTE
-Nuxt Stack isn't doing anything special with SASS. It simply lists `node-sass` and `sass-loader` as dependencies so they don't need to be installed alongside `nuxt-stack`. This keeps the project dependencies nice and lean from the outset.
+Nuxt Stack isn't doing anything special with SASS. It simply lists `node-sass` and `sass-loader` as dependencies so they don't need to be installed alongside `nuxt-stack`. This keeps project dependencies nice and lean from the outset.
 :::
 
 If you're happy to forgo formatting from Prettier or would prefer to use LESS, simply install the CSS preprocessor and Webpack loader of your choosing as you normally would.

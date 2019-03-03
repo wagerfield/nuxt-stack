@@ -46,9 +46,9 @@ Check out the [commands](/commands/) section to see what else Nuxt Stack can do.
 
 ### What's so special about Nuxt Stack? :innocent:
 
-Out of the box, the [Nuxt Stack starter app][fancy-example] will get [100/100 in a Google Lighthouse audit][google-lighthouse-report] _across the board_.
+Out of the box, the [default project template][fancy-example] will get [100/100 in a Google Lighthouse audit][google-lighthouse-report] _across the board_.
 
-If that's peaked your interest, check out some of the other [features](/guide/features.html) Nuxt Stack has to offer.
+If that's piqued your interest, check out some of the other [features](/guide/features.html) Nuxt Stack has to offer.
 
 ### How much bloat does Nuxt Stack add? :sweat_smile:
 
@@ -56,16 +56,17 @@ Very little. It also depends on which plugins _you choose_ to use.
 
 Nuxt Stack is simply a collection of plugins and presets focused on delivering the best performance possible.
 
-Out of the box, the default `fancy` project template will add [~15kb of JavaScript (gzipped)][fancy-stats] to a [bare bones Nuxt app][benchmark-stats]. This mainly comes from `lazysizes` **~7kb** and `webfontloader` **~5kb**.
+Out of the box, the default project template will add [~15kb of JavaScript (gzipped)][fancy-stats] to a [bare bones Nuxt app][benchmark-stats]. This mainly comes from `lazysizes` **~7kb** and `webfontloader` **~5kb**.
 
-If you don't want to lazy load images or use custom webfonts you can disable these plugins and shed the extra weight. Some plugins like `axios`, `webfontloader` and `vue-analytics` are only included when configuration options are present in the Nuxt config. For example, the `basic` project template doesn't use any custom webfonts so `webfontloader` isn't included in the [vendor bundle][basic-stats].
+If you don't want to lazy load images or use custom webfonts you can disable these plugins and shed the extra weight. Some plugins like `axios`, `webfontloader` and `vue-analytics` are only included when configuration options are present in the Nuxt config. For example, the [basic project template][basic-example] doesn't use any custom webfonts so `webfontloader` isn't included in the [vendor bundle][basic-stats].
 
 All plugins that Nuxt Stack provides are fully configurable, so you can _opt-in_ or _out_ as necessary.
 
 Check out the [configuration](/module/configuration.html) docs to learn more.
 
-[fancy-example]: https://fancy-example.nuxtstack.org
-[basic-stats]: https://basic-stats.nuxtstack.org/client.html
-[fancy-stats]: https://fancy-stats.nuxtstack.org/client.html
-[benchmark-stats]: https://benchmark-stats.nuxtstack.org/client.html
 [google-lighthouse-report]: https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://fancy-example.nuxtstack.org
+[benchmark-stats]: https://benchmark-stats.nuxtstack.org/client.html
+[basic-example]: https://basic-example.nuxtstack.org
+[basic-stats]: https://basic-stats.nuxtstack.org/client.html
+[fancy-example]: https://fancy-example.nuxtstack.org
+[fancy-stats]: https://fancy-stats.nuxtstack.org/client.html

@@ -26,7 +26,8 @@ module.exports = {
       "/guide/": [
         "",
         "rationale",
-        "features"
+        "features",
+        "dependencies"
       ],
       "/commands/": [
         "",
