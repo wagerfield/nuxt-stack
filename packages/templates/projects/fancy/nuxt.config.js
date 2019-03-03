@@ -21,7 +21,7 @@ export default {<%
   webfonts: {
     google: {
       families: [
-        "Barlow Condensed:700",
+        "Quicksand:500",
         "Roboto Mono:400"
       ]
     }

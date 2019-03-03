@@ -11,6 +11,7 @@ html {
 
 h1 {
   font-size: 7rem;
+  font-weight: 500;
   font-family: $heading-font-fallback;
   line-height: 0.9;
   .wf-active & {
