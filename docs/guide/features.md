@@ -21,8 +21,8 @@ The `nuxt-stack` module also installs and configures the following modules and p
 
 | Module               | Description                                                      |
 | :------------------- | :--------------------------------------------------------------- |
-| `@nuxtjs/dotenv`     | Loads `.env` and merges the key pairs with Nuxt's `env` object   |
 | `@nuxtjs/axios`      | Nuxt `axios` module for making promise based HTTP requests       |
+| `@nuxtjs/dotenv`     | Loads `.env` and merges the key pairs with Nuxt's `env` object   |
 | `@nuxtjs/pwa`        | Collection of modules for developing performant PWAs             |
 | `@nuxtjs/sitemap`    | Automatically generate or serve a dynamic sitemap                |
 | `nuxt-svg-loader`    | Import SVGs as Vue Single File components                        |
