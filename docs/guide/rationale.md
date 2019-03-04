@@ -14,7 +14,7 @@ If the answer to some of these questions is "quite a few" then Nuxt Stack _might
 
 There's something deeply satisfying about starting a new Nuxt project from scratch with nothing but `nuxt` as a dependency and a pages directory with a single `index.vue` file in it. There's so much going on behind the scenes when you run `nuxt` from the command line—but you barely need think about it. Nuxt takes care of wiring up Webpack, Babel and Vue for development _and_ production with routing, SSR and static site generation thrown in the mix. The DX (developer experience) is _fantastic_.
 
-However, as soon as you start integrating and configuring tools like ESLint, Prettier and Jest...or popular modules like `@nuxtjs/axios` and `@nuxtjs/pwa` Nuxt's zen starts to fade a little.
+However, as soon as you start integrating and configuring tools like ESLint, Prettier and Jest...or installing staple modules like `@nuxtjs/axios` and `@nuxtjs/pwa` Nuxt's zen starts to fade a little.
 
 Nuxt Stack attempts to remedy this by assembling a suite of [popular plugins](/module/plugins.html) and setting up the development tools needed to lint, format and test your application.
 
