@@ -1,41 +1,47 @@
 # Configuration
 
-## `stack`
+## Nuxt Stack Options
 
-## `styles`
+### `stack`
 
-## `styleResources`
+### `styles`
 
-## `svgLoader`
+### `eslint`
 
-## `dotenv`
+## Vendor Options
 
-## `eslint`
+### `analytics`
 
-## `axios`
+### `axios`
 
-## `analytics`
+### `dotenv`
 
-## `lazysizes`
+### `hydrate`
 
-## `installer`
+### `installer`
 
-## `hydrate`
+### `lazysizes`
 
-## `tabbing`
+### `sitemap`
 
-## `static`
+### `static`
 
-## `sitemap`
+### `styleResources`
 
-## `webfonts`
+### `svgLoader`
 
-## `pwa`
+### `tabbing`
 
-## `icon`
+### `webfonts`
 
-## `meta`
+## PWA Options
 
-## `manifest`
+### `pwa`
 
-## `workbox`
+### `icon`
+
+### `manifest`
+
+### `meta`
+
+### `workbox`
