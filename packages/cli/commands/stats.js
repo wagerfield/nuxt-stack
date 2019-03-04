@@ -9,7 +9,7 @@ const args = ["build", "--analyze", "--spa", "--no-generate"]
 NuxtCommand.run({
   name: "stats",
   description: "Show build stats with webpack analyser",
-  usage: "stats",
+  usage: "stats <dir>",
   options: {
     ...server,
     ...common

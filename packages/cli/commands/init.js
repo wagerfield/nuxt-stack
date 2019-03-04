@@ -12,7 +12,7 @@ const { common } = require("../options")
 NuxtCommand.run({
   name: "init",
   description: "Create starter files",
-  usage: "init",
+  usage: "init <dir>",
   options: {
     "src-dir": {
       alias: "s",

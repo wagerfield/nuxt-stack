@@ -7,7 +7,7 @@ const { common } = require("../options")
 NuxtCommand.run({
   name: "clean",
   description: "Delete generated files",
-  usage: "clean",
+  usage: "clean <dir>",
   options: {
     lock: {
       alias: "l",
