@@ -1945,10 +1945,10 @@
     webpack-node-externals "^1.7.2"
     webpackbar "^3.1.5"
 
-"@nuxtjs/axios@5.4.0":
-  version "5.4.0"
-  resolved "https://registry.npmjs.org/@nuxtjs/axios/-/axios-5.4.0.tgz#4f970f9d62e93472e6d6c6763af5caf5722a4c96"
-  integrity sha512-peqA0edbRYWxgJSAk5MwsSVZjxS3VuoiHHS2kAoAxkoXTj2vgtF/X8DkGAnfr/AP3e4QNvhVktV1V3Z1b4nz2g==
+"@nuxtjs/axios@5.4.1":
+  version "5.4.1"
+  resolved "https://registry.npmjs.org/@nuxtjs/axios/-/axios-5.4.1.tgz#8dbc841e939c082271f7053edc1180bf5a441ee3"
+  integrity sha512-SvN6Ixs9d2AHdaB8PF4ZXr9azg4r3ynaomtr71+wMox3EEFfZHBQmAFz6lOY/CqbLRlJqYVDPKPvfIcSnngktw==
   dependencies:
     "@nuxtjs/proxy" "^1.3.3"
     axios "^0.18.0"
