@@ -1962,30 +1962,30 @@
   dependencies:
     dotenv "^6.0.0"
 
-"@nuxtjs/icon@3.0.0-beta.10":
-  version "3.0.0-beta.10"
-  resolved "https://registry.npmjs.org/@nuxtjs/icon/-/icon-3.0.0-beta.10.tgz#822cefa686ff72574188775594de6cd062f6e632"
-  integrity sha512-XEUfDv4GWhAl+3We3ZUu5GE3KA6LiRG+9rEvifFmBF6y8MRzJgQnFYRzm85cluU3N68aepGjUfX3fAV9R4rTew==
+"@nuxtjs/icon@3.0.0-beta.11":
+  version "3.0.0-beta.11"
+  resolved "https://registry.npmjs.org/@nuxtjs/icon/-/icon-3.0.0-beta.11.tgz#1674f1359681852d592cbc4f015925bc9a57034e"
+  integrity sha512-Ap/jQSNY1huMDSM0lQ035r9P6m+k87S8tejJUN6mvp8QyKX+fdb8wIrOuaxwvjXr1ATlPVu5vghzpH7SB42I3A==
   dependencies:
-    "@nuxtjs/pwa-utils" "3.0.0-beta.10"
+    "@nuxtjs/pwa-utils" "3.0.0-beta.11"
     fs-extra "^7.0.1"
     hash-sum "^1.0.2"
     jimp "^0.6.0"
 
-"@nuxtjs/manifest@3.0.0-beta.10":
-  version "3.0.0-beta.10"
-  resolved "https://registry.npmjs.org/@nuxtjs/manifest/-/manifest-3.0.0-beta.10.tgz#d79d876a7c3bdecd477ed147f4030e813b3a286c"
-  integrity sha512-L5D1kxfGbdaLIYLSWNDT4eVarbo9gp7hcAks4FU3XfLDuTJ1tLLMGHoB5wqyLkDUykvaKmh0/rL+FNHTDjt1uA==
+"@nuxtjs/manifest@3.0.0-beta.11":
+  version "3.0.0-beta.11"
+  resolved "https://registry.npmjs.org/@nuxtjs/manifest/-/manifest-3.0.0-beta.11.tgz#42eb5dbc81779c720c123a9ba2834807ab96ff6e"
+  integrity sha512-ls8PFR/jsB61jSQq9APdTF+xT4ZJkw8Fl89GadMf95ipOA/zb1OXQBHTB0dWZzUfG8PLn1Kx6HSpuW6lCJr03Q==
   dependencies:
-    "@nuxtjs/pwa-utils" "3.0.0-beta.10"
+    "@nuxtjs/pwa-utils" "3.0.0-beta.11"
     hash-sum "^1.0.2"
 
-"@nuxtjs/meta@3.0.0-beta.10":
-  version "3.0.0-beta.10"
-  resolved "https://registry.npmjs.org/@nuxtjs/meta/-/meta-3.0.0-beta.10.tgz#61a136d7908abb4c8685bcc65cc329860579bdf2"
-  integrity sha512-cBDuVPr938ScJrgWVxDKmObdSPhrU2tqhpVBy8KjBFPEKMaZ9cfFBzAocGjr3puSPIWlF5DuUiE7RHYtniD51w==
+"@nuxtjs/meta@3.0.0-beta.11":
+  version "3.0.0-beta.11"
+  resolved "https://registry.npmjs.org/@nuxtjs/meta/-/meta-3.0.0-beta.11.tgz#caa69ab90e6ca1fc6f24d0730fddfc82e398bba0"
+  integrity sha512-wIZd67HwfWfP+67kg73scuWts17mQjoPP9dhL1f8wevi2lHG46psTzxI84mAktVzIV1DpBBvCSv6sU3xnX2/zA==
   dependencies:
-    "@nuxtjs/pwa-utils" "3.0.0-beta.10"
+    "@nuxtjs/pwa-utils" "3.0.0-beta.11"
 
 "@nuxtjs/proxy@^1.3.3":
   version "1.3.3"
@@ -1995,21 +1995,21 @@
     consola "^2.5.6"
     http-proxy-middleware "^0.19.1"
 
-"@nuxtjs/pwa-utils@3.0.0-beta.10":
-  version "3.0.0-beta.10"
-  resolved "https://registry.npmjs.org/@nuxtjs/pwa-utils/-/pwa-utils-3.0.0-beta.10.tgz#2411618bb98e8e210eaaffef054e0c2123075fd4"
-  integrity sha512-edcOHLJzFpxcpvUVkc6NYyOMl9pTxxvz8tDHxsNN7o+nokKUukNhEAR1oeGcCnC7rzWcykHL4GUxjJO0x3AnWA==
+"@nuxtjs/pwa-utils@3.0.0-beta.11":
+  version "3.0.0-beta.11"
+  resolved "https://registry.npmjs.org/@nuxtjs/pwa-utils/-/pwa-utils-3.0.0-beta.11.tgz#a547b89e0545137ccac84bd6561385c69c4e2394"
+  integrity sha512-KqtuomyKswYx44aHNXRlCHvjhUU4nQ9S1YJhtrv0f4DnVLMaYskCH44SYqreJwlvsfil/YI20KksSN3zH7v86Q==
 
-"@nuxtjs/pwa@3.0.0-beta.10":
-  version "3.0.0-beta.10"
-  resolved "https://registry.npmjs.org/@nuxtjs/pwa/-/pwa-3.0.0-beta.10.tgz#859861570a4b8fe1f39aab1c9ba8ac1bb41ce82c"
-  integrity sha512-WIYqZZ36dCSIiM+e4GNQID0ToAbVNUKkXO+emoQrJYuxKPn4Ug5mD1Ljd2WRJxJBALkjXWAT+E8Dgd3iPlFAPA==
+"@nuxtjs/pwa@3.0.0-beta.11":
+  version "3.0.0-beta.11"
+  resolved "https://registry.npmjs.org/@nuxtjs/pwa/-/pwa-3.0.0-beta.11.tgz#c4f9a8c4767cdc5f1a6048a95078492c3b7502f9"
+  integrity sha512-rSLeli7jdzzPHA7n7x3RGAml3DAvWJLH5Q2UcNIa5QwULaIlDU5cgjxzA1apYtSDI4gvPoHS3yHovC2xG9cjzQ==
   dependencies:
-    "@nuxtjs/icon" "3.0.0-beta.10"
-    "@nuxtjs/manifest" "3.0.0-beta.10"
-    "@nuxtjs/meta" "3.0.0-beta.10"
-    "@nuxtjs/pwa-utils" "3.0.0-beta.10"
-    "@nuxtjs/workbox" "3.0.0-beta.10"
+    "@nuxtjs/icon" "3.0.0-beta.11"
+    "@nuxtjs/manifest" "3.0.0-beta.11"
+    "@nuxtjs/meta" "3.0.0-beta.11"
+    "@nuxtjs/pwa-utils" "3.0.0-beta.11"
+    "@nuxtjs/workbox" "3.0.0-beta.11"
 
 "@nuxtjs/sitemap@0.2.0":
   version "0.2.0"
@@ -2032,12 +2032,13 @@
     glob-all "^3.1.0"
     sass-resources-loader "^2.0.0"
 
-"@nuxtjs/workbox@3.0.0-beta.10":
-  version "3.0.0-beta.10"
-  resolved "https://registry.npmjs.org/@nuxtjs/workbox/-/workbox-3.0.0-beta.10.tgz#999bfbd8f9b37fa82e5996feed13ea0f8befd9c8"
-  integrity sha512-FDYedg9kI7xjyvoPDE+6t0TjcisTcKgbNpQkpu7qwU8sewQE3cul2sg9Sa/3qrjOAoxvbvON373YTZN1jT5zkQ==
+"@nuxtjs/workbox@3.0.0-beta.11":
+  version "3.0.0-beta.11"
+  resolved "https://registry.npmjs.org/@nuxtjs/workbox/-/workbox-3.0.0-beta.11.tgz#d7ee1e7037db08bebd2f18327860190a64e0998e"
+  integrity sha512-6q9hIR6f84g4i5168jxhOc1KBrIC6prrFPRcdY8mLFXxTXMoU4o2AM4lumxbXkxXCF8znSFmAc7eIdqYSnMrcQ==
   dependencies:
-    "@nuxtjs/pwa-utils" "3.0.0-beta.10"
+    "@nuxtjs/pwa-utils" "3.0.0-beta.11"
+    workbox-window "4.0.0"
 
 "@nuxtjs/youch@^4.2.3":
   version "4.2.3"
@@ -5273,10 +5274,10 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   integrity sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
 
-eslint@5.15.1:
-  version "5.15.1"
-  resolved "https://registry.npmjs.org/eslint/-/eslint-5.15.1.tgz#8266b089fd5391e0009a047050795b1d73664524"
-  integrity sha512-NTcm6vQ+PTgN3UBsALw5BMhgO6i5EpIjQF/Xb5tIh3sk9QhrFafujUOczGz4J24JBlzWclSB9Vmx8d+9Z6bFCg==
+eslint@5.15.0:
+  version "5.15.0"
+  resolved "https://registry.npmjs.org/eslint/-/eslint-5.15.0.tgz#f313a2f7c7628d39adeefdba4a9c41f842012c9e"
+  integrity sha512-xwG7SS5JLeqkiR3iOmVgtF8Y6xPdtr6AAsN6ph7Q6R/fv+3UlKYoika8SmNzmb35qdRF+RfTY35kMEdtbi+9wg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.9.1"
@@ -13343,6 +13344,18 @@ wordwrap@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
   integrity sha1-J1hIEIkUVqQXHI0CJkQa3pDLyus=
+
+workbox-core@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/workbox-core/-/workbox-core-4.0.0.tgz#3b4aa11c9d739361ed8916b7611abc3b6fefed8b"
+  integrity sha512-FRoOUuJBl7COTwvGO5FC9k0VyYGv/LkjVqgVwKk9MXQn/Xi+bvGDcqSVF7qfT+sJ6Ffcr/V+dVMpoZAE/X5e+g==
+
+workbox-window@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/workbox-window/-/workbox-window-4.0.0.tgz#a4d6404c96cc65d4882f79331d4e812c10f912a6"
+  integrity sha512-gdLzP/L0vu5Gi3pdUYtVNmg0yE7OriEuYZBoLt8AYoILXh6cta9WsWHKQ0/pXfmEmZywr4Dfu0qkLLvc9VlZGQ==
+  dependencies:
+    workbox-core "^4.0.0"
 
 worker-farm@^1.5.2:
   version "1.6.0"
