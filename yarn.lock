@@ -10934,14 +10934,13 @@ read-pkg-up@^4.0.0:
     find-up "^3.0.0"
     read-pkg "^3.0.0"
 
-read-pkg@4.0.1, read-pkg@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/read-pkg/-/read-pkg-4.0.1.tgz#963625378f3e1c4d48c85872b5a6ec7d5d093237"
-  integrity sha1-ljYlN48+HE1IyFhytabsfV0JMjc=
+read-pkg@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/read-pkg/-/read-pkg-5.0.0.tgz#75449907ece8dfb89cbc76adcba2665316e32b94"
+  integrity sha512-OWufaRc67oJjcgrxckW/qO9q22iYzyiONh8h+GMcnOvSHAmhV1Dr3x+gyRjP+Qxc5jKupkSfoCQLS/98rDPh9A==
   dependencies:
     normalize-package-data "^2.3.2"
     parse-json "^4.0.0"
-    pify "^3.0.0"
 
 read-pkg@^1.0.0:
   version "1.1.0"
@@ -10969,6 +10968,15 @@ read-pkg@^3.0.0:
     load-json-file "^4.0.0"
     normalize-package-data "^2.3.2"
     path-type "^3.0.0"
+
+read-pkg@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/read-pkg/-/read-pkg-4.0.1.tgz#963625378f3e1c4d48c85872b5a6ec7d5d093237"
+  integrity sha1-ljYlN48+HE1IyFhytabsfV0JMjc=
+  dependencies:
+    normalize-package-data "^2.3.2"
+    parse-json "^4.0.0"
+    pify "^3.0.0"
 
 read@1, read@~1.0.1:
   version "1.0.7"
