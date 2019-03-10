@@ -13178,10 +13178,10 @@ vorpal@^1.12.0:
     strip-ansi "^3.0.0"
     wrap-ansi "^2.0.0"
 
-vue-analytics@5.16.2:
-  version "5.16.2"
-  resolved "https://registry.npmjs.org/vue-analytics/-/vue-analytics-5.16.2.tgz#37724aeec71bb830b1cf2d52a969cf190ef120c1"
-  integrity sha512-5JKGnVF33VHlXFREzht9z3Z11N4IA8vXNnpvYeAf72rEUyAuuU9Q9kX34bULW2CxMrahr8m06IB8+91GX0Ruag==
+vue-analytics@5.16.3:
+  version "5.16.3"
+  resolved "https://registry.npmjs.org/vue-analytics/-/vue-analytics-5.16.3.tgz#99124fe2e64a804d56746af025c3f421cd197072"
+  integrity sha512-1U6/AKm0plm1jxECfLKkBzMkNWdWkpc0O2/DsuOgk4PXaQ3FCTHQ+iWqwhtG2cTlF/lu3lRmYGGWhvHFyUZb/A==
 
 vue-eslint-parser@^2.0.2:
   version "2.0.3"
