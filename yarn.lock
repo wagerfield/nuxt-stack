@@ -2156,10 +2156,10 @@
     "@nuxtjs/pwa-utils" "3.0.0-beta.12"
     "@nuxtjs/workbox" "3.0.0-beta.12"
 
-"@nuxtjs/sitemap@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/@nuxtjs/sitemap/-/sitemap-0.2.0.tgz#a3bb2bef6f697f3603dc121511990e17c19a6797"
-  integrity sha512-enqYD8OMyKpyRAJX0TjGY/L1k53l7/QZ4LB/akN6D8c64dURz0eZ/8MZ/dz90Wj600jclOdfyU9IOtcCWvvlVg==
+"@nuxtjs/sitemap@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.npmjs.org/@nuxtjs/sitemap/-/sitemap-0.2.2.tgz#4218d5bc9e0b3291d478b0008229afdc07603769"
+  integrity sha512-M8dbqaD5/zRjooNO8iQ114uuQHficDKdvlXl1nEZBdiFUjStAIdMhzo6Rcdnf2JHo5q4bRzcJ/eBBfQRapeLSQ==
   dependencies:
     async-cache "^1.1.0"
     fs-extra "^7.0.1"
