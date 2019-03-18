@@ -28,7 +28,7 @@ class Template {
     // Options
     this.exclude = get(options, "exclude", [".DS_Store"])
     this.configFile = get(options, "configFile", "nuxt.config.js")
-    this.logPrefix = get(options, "logPrefix", "Output:")
+    this.logPrefix = get(options, "logPrefix", "Generated:")
     this.overwrite = get(options, "overwrite", false)
 
     // Bind
