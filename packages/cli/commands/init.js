@@ -32,8 +32,8 @@ NuxtCommand.run({
       default: "dist",
       description: "Generate directory\nDefault: dist"
     },
-    project: {
-      alias: "p",
+    template: {
+      alias: "t",
       type: "string",
       default: "fancy",
       description: [
@@ -95,7 +95,7 @@ NuxtCommand.run({
     api.copy(api.tpl("rootfiles"), api.dst())
 
     // Project Files
-    const tplProjectDir = api.tpl(`projects/${cmd.argv.project}`)
+    const tplProjectDir = api.tpl(`projects/${cmd.argv.template}`)
     const tplProjectCfg = join(tplProjectDir, api.configFile)
     api.write(tplProjectCfg, api.dst(api.configFile))
     api.copy(join(tplProjectDir, "src"), api.src())

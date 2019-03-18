@@ -27,14 +27,14 @@ yarn nuxt init
 yarn dev
 ```
 
-Running `nuxt init` will initialise a new Nuxt Stack project with all the files and configuration you need to get up and running. Take some time to look each of these files and appreciate the minimal contents of the obligatory dotfiles.
+Running `nuxt init` will generate a template project with all the files and configuration you need to get up and running. Take some time to look each of these files and appreciate the minimal contents of the obligatory dotfiles.
 
 When you're ready, open the URL printed in the terminal when you ran `yarn dev` and you should see a page that [looks like this][fancy-example].
 
 This is the default "fancy" template that gets generated when you run `nuxt init` without any options. To see what options are available to you, check out the `init` [command docs](/commands/init.html).
 
 ::: tip
-For a completely stripped back project template you can run `nuxt init --project basic`
+For a completely stripped back project template you can run `nuxt init --template basic`
 
 If you're a [VSCode][vscode] user you'll want to add the `--vscode` flag to generate `jsconfig.json` and `.vscode/settings.json` files for resolving Nuxt path aliases and formatting your code when you save it.
 :::
@@ -64,7 +64,7 @@ With that said, follow these steps to integrate `nuxt-stack` into an existing pr
    - VSCode: `jsconfig.json`, `.vscode/settings.json`
 3. Delete `node_modules` and any lock files (`yarn.lock` for example)
 4. Run `yarn add nuxt nuxt-stack` from your repo root so a fresh `package.json` is created containing only a `dependencies` field with `nuxt` and `nuxt-stack` within it.
-5. Now run `yarn nuxt init --project basic --src-dir <src>` where `<src>` is the directory where your pages, components etc. are located. If your pages and components are located at the root of the repo, just pass the flag with no value afterwards eg. `nuxt init --src-dir`. If your pages, components etc. are in an "app" directory then pass `--src-dir app`.
+5. Now run `yarn nuxt init --template basic --src-dir <src>` where `<src>` is the directory where your pages, components etc. are located. If your pages and components are located at the root of the repo, just pass the flag with no value afterwards eg. `nuxt init --src-dir`. If your pages, components etc. are in an "app" directory then pass `--src-dir app`.
 
 ::: warning NOTE
 The default source directory that Nuxt Stack configures when running `nuxt init` is "src" _not_ the root of your repo. This is because it's much easier to write globbing patterns to target source files when they're located in a folder. It also separates your Nuxt app source code from any api, docs, server or tests directories that might be located at the root of your repo.

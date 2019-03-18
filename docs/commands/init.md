@@ -10,7 +10,7 @@ Usage: `nuxt init <dir> [options]`
 | `-g, --generate-dir` | `dist`  | Generate directory                                      |
 | `-b, --build-dir`    | `.nuxt` | Build directory                                         |
 | `-o, --overwrite`    | `false` | Overwrite any existing template files or configs        |
-| `-p, --project`      | `fancy` | Project template to use. Options are `basic` or `fancy` |
+| `-t, --template`     | `fancy` | Project template to use. Options are `basic` or `fancy` |
 | `-e, --vscode`       | `false` | Output VSCode `settings.json` and `jsconfig.json`       |
 | `-k, --no-hooks`     | `true`  | Inject scripts and hooks into `package.json`            |
 | `-v, --version`      | `N/A`   | Display `nuxt` version                                  |
@@ -21,7 +21,7 @@ Usage: `nuxt init <dir> [options]`
 Generate the `basic` project template:
 
 ```bash
-nuxt init --project basic
+nuxt init --template basic
 ```
 
 Generate the `fancy` project template with VSCode settings and jsconfig:
