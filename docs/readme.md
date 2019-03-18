@@ -52,7 +52,7 @@ If that's piqued your interest, check out some of the other [features](/guide/fe
 
 ### How much bloat does Nuxt Stack add? :sweat_smile:
 
-Very little. It also depends on which plugins _you choose_ to use.
+Very little. It also depends on which plugins _you decide_ to use.
 
 Nuxt Stack is simply a collection of plugins and presets focused on delivering the best performance possible.
 
