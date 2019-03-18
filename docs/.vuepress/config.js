@@ -1,4 +1,5 @@
 module.exports = {
+  serviceWorker: true,
   ga: "UA-135327752-1",
   title: "Nuxt Stack",
   description: [
