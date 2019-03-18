@@ -1,5 +1,5 @@
 import Vue from "vue"
-import Hydrate from "vue-lazy-hydration"
+import VueLazyHydration from "vue-lazy-hydration"
 
 export default (context) => {
   let opts = <%= serialize(options) %>
@@ -7,5 +7,5 @@ export default (context) => {
 
   const pluginOptions = Object.assign({ name: "VHydrate" }, opts)
 
-  Vue.component(pluginOptions.name, Hydrate)
+  Vue.component(pluginOptions.name, VueLazyHydration)
 }

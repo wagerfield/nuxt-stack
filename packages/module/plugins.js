@@ -4,10 +4,10 @@ import { either, isFunction, isNotFalse, isPlainObject } from "./utils"
 const isPluginOptions = either(isFunction, isPlainObject)
 
 export default function addPlugins() {
-  const addPlugin = (key, mode, check) => {
+  const addPlugin = (key, file, mode, check) => {
     if (check(this.options[key])) {
       this.addPlugin({
-        src: resolve(__dirname, `templates/${key}.js`),
+        src: resolve(__dirname, `templates/${file}.js`),
         options: this.options[key] || {},
         mode
       })
@@ -15,13 +15,13 @@ export default function addPlugins() {
   }
 
   // Client Plugins
-  addPlugin("webfonts", "client", isPluginOptions)
-  addPlugin("analytics", "client", isPluginOptions)
-  addPlugin("lazysizes", "client", isNotFalse)
+  addPlugin("webfonts", "webfontloader", "client", isPluginOptions)
+  addPlugin("lazysizes", "lazysizes", "client", isNotFalse)
+  addPlugin("analytics", "vue-analytics", "client", isPluginOptions)
 
   // Universal Plugins
-  addPlugin("installer", "all", isNotFalse)
-  addPlugin("hydrate", "all", isNotFalse)
-  addPlugin("tabbing", "all", isNotFalse)
-  addPlugin("static", "all", isNotFalse)
+  addPlugin("staticData", "vue-static-data", "all", isNotFalse)
+  addPlugin("hydration", "vue-lazy-hydration", "all", isNotFalse)
+  addPlugin("installer", "vue-pwa-installer", "all", isNotFalse)
+  addPlugin("tabbing", "vue-tabbing", "all", isNotFalse)
 }
