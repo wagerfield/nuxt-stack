@@ -14,7 +14,7 @@ Nuxt Stack is composed of two parts:
 - Specify common meta data such as name, description and lang in one place and have it automatically cloned to head attributes, meta tags and the PWA manifest
 - Easily add `preconnect` links for improved resource fetching performance
 - Optimises Nuxt's `generate` config for Netlify with fallback enabled
-- Configures Nuxt's server host and port to work across the network so you can view your app during development on another device
+- Configures Nuxt's server host and port to work across the network so you can view your app on another device during development
 - ESLint integration with Webpack for linting and fixing your code automatically during development
 
 The `nuxt-stack` module also installs and configures the following modules and plugins:
@@ -25,12 +25,12 @@ The `nuxt-stack` module also installs and configures the following modules and p
 | [`@nuxtjs/dotenv`][nuxt-dotenv]            | Loads `.env` file and merges the key pairs with Nuxt's `env` object |
 | [`@nuxtjs/pwa`][nuxt-pwa]                  | Collection of modules for developing PWAs                           |
 | [`@nuxtjs/sitemap`][nuxt-sitemap]          | Automatically generate or serve a dynamic sitemap                   |
-| [`nuxt-svg-loader`][nuxt-svg-loader]       | Import SVGs as Vue Single File components                           |
+| [`nuxt-svg-loader`][nuxt-svg-loader]       | Import SVGs as Vue components                                       |
 | [`webfontloader`][webfontloader]           | Load custom webfonts from services like Google and Typekit          |
 | [`vue-analytics`][vue-analytics]           | Google Analytics integration for Vue and Nuxt                       |
 | [`lazysizes`][lazysizes]                   | Lazily load images and videos only when they become visible         |
 | [`vue-pwa-installer`][vue-pwa-installer]   | Interface for installing a PWA to the home screen                   |
-| [`vue-lazy-hydration`][vue-lazy-hydration] | Lazily hydrate Vue components using different strategies            |
+| [`vue-lazy-hydration`][vue-lazy-hydration] | Lazily hydrate Vue components using a variety of strategies         |
 | [`vue-tabbing`][vue-tabbing]               | Reactive flag triggered by keyboard navigation using the tab key    |
 | [`vue-static-data`][vue-static-data]       | Declare static (non-reactive) data within Vue components            |
 
@@ -40,7 +40,7 @@ The `nuxt-stack` module also installs and configures the following modules and p
   - Pick from two templates: "basic" or "fancy"
   - Only essential files and configuration are generated
   - Options for specifying the source, build and statically generated site folders
-  - Score 100/100 in a Google Lighthouse audit from the start
+  - Score 100/100 in a Google Lighthouse audit from the outset
   - Inject useful development `scripts` and hooks for `husky` and `lint-staged`
   - Generate VSCode settings for resolving Nuxt path aliases and formatting code on save
 - Write and run tests for Jest with zero configuration using `nuxt test`

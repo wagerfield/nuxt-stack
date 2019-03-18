@@ -8,7 +8,7 @@ Usage: `nuxt test <pattern> [options]`
 
 | Option          | Default | Description                                |
 | :-------------- | :------ | :----------------------------------------- |
-| `-r, --related` | `N/A`   | Alias for Jest's `--findRelatedTests` flag |
+| `-r, --related` | `false` | Alias for Jest's `--findRelatedTests` flag |
 | `-v, --version` | `N/A`   | Display `nuxt` version                     |
 | `-h, --help`    | `N/A`   | Display `help` dialog                      |
 

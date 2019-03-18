@@ -11,7 +11,7 @@ features:
     details: "Streamlines the process of creating an installable, performant Progressive Web App using a suite of battle-tested tools, modules and techniques."
   - title: "Write tests, right away"
     details: "Nuxt Stack takes care of configuring Jest and Babel to work with Vue and Nuxt out of the box—freeing you to focus on writing tests not tooling."
-  - title: "Zero config"
+  - title: "Zero configuration"
     details: "Install one module, run one command and you're away. Develop a production ready app in a fraction of the time."
   - title: "Command all the things"
     details: "Initialise, lint, format, test, analyse and serve a static app with a suite of new commands added to Nuxt's CLI."

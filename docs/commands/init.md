@@ -12,7 +12,7 @@ Usage: `nuxt init <dir> [options]`
 | `-o, --overwrite`    | `false` | Overwrite any existing template files or configs        |
 | `-t, --template`     | `fancy` | Project template to use. Options are `basic` or `fancy` |
 | `-e, --vscode`       | `false` | Output VSCode `settings.json` and `jsconfig.json`       |
-| `-k, --no-hooks`     | `true`  | Inject scripts and hooks into `package.json`            |
+| `-k, --no-hooks`     | `true`  | Do not inject scripts and hooks into `package.json`     |
 | `-v, --version`      | `N/A`   | Display `nuxt` version                                  |
 | `-h, --help`         | `N/A`   | Display `help` dialog                                   |
 

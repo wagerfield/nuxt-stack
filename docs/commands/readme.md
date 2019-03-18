@@ -6,7 +6,7 @@ Alongside `nuxt build` and `nuxt generate`, you can now run `nuxt init` and `nux
 
 | Command                        | Description                                                                 |
 | :----------------------------- | :-------------------------------------------------------------------------- |
-| [`nuxt init`](./init.html)     | Initialise a new Nuxt Stack project to get you started                      |
+| [`nuxt init`](./init.html)     | Generate a project template to get you started                              |
 | [`nuxt test`](./test.html)     | Test code with Jest using presets for handling Vue components               |
 | [`nuxt lint`](./lint.html)     | Lint code with ESLint using a preset config for resolving Nuxt path aliases |
 | [`nuxt format`](./format.html) | Format code with Prettier and optionally ESLint by passing `--lint`         |

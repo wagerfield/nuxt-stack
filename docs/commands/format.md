@@ -25,7 +25,7 @@ Format all `.js` and `.vue` files:
 nuxt format **/*.{js,vue}
 ```
 
-Format and fix all `.js` files in the components directory:
+Format and overwrite all `.js` files in the components directory:
 
 ```bash
 nuxt format src/components/**/*.js --write

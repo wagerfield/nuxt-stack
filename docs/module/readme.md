@@ -1,4 +1,4 @@
-# Module
+# Nuxt Stack Module
 
 ```js
 // nuxt.config.js
@@ -15,7 +15,7 @@ The `nuxt-stack` module does a number of things:
 
 ## Nuxt Overrides
 
-Nuxt Stack sets the following options by default:
+Nuxt Stack overrides the following default options:
 
 ```js
 // nuxt.config.js
@@ -34,10 +34,10 @@ export default {
     linkExactActiveClass: "link-active-exact"
   },
   server: {
-    host: "0.0.0.0", // Access across the network
+    host: "0.0.0.0", // Access server across the network
     port: 5000 // Default port used by serve
   }
 }
 ```
 
-Check out the [overview of plugins](./plugins.html) that are installed and configured by Nuxt Stack. Or head over to the [configuration page](./configuration.html) for information on what options can be passed to these plugins.
+Check out the [plugins](./plugins.html) that are installed and configured by Nuxt Stack. Or head over to the [configuration page](./configuration.html) for information on what options can be passed to these plugins.
