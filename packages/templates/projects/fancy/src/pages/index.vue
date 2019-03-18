@@ -1,10 +1,13 @@
 <template>
   <div class="grid">
     <main class="content">
-      <h1 class="title">Nuxt Stack</h1>
       <v-logo class="logo" :width="logoSize" :height="logoSize" />
+      <h1 class="title">
+        <span class="green-1">Nuxt</span>
+        <span class="green-3">Stack</span>
+      </h1>
       <div v-if="$installer.canInstall" class="callout">
-        <button @click="$installer.prompt">Install PWA</button>
+        <v-button text="Install PWA" @click="$installer.prompt" />
       </div>
     </main>
     <footer v-if="$installer.hasInstalled" class="footer">
@@ -14,13 +17,15 @@
 </template>
 
 <script>
+import VButton from "~/components/button/button.vue"
 import VLogo from "~/assets/logo.svg"
 
 export default {
   staticData: () => ({
-    logoSize: 16 * 10
+    logoSize: 240
   }),
   components: {
+    VButton,
     VLogo
   }
 }
@@ -44,29 +49,32 @@ export default {
     [content-start]
     auto
     [content-end]
-    minmax(2rem, 1fr)
+    minmax(2rem, 1.2fr)
     [footer-start]
     auto
     [footer-end bleed-end];
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   grid-area: content;
+}
 
-  .title {
-    text-transform: uppercase;
-    max-width: 400px;
-    margin: 0;
-  }
+.title {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  .callout {
-    margin-top: 4rem;
-  }
+.callout {
+  margin-top: 4rem;
 }
 
 .footer {
   grid-area: footer;
-  padding: 0.75em 1.5em;
+  padding: 1em 2em;
   background: $green-1;
   text-align: center;
   color: $white;
