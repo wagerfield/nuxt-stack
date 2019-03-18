@@ -25,7 +25,7 @@ export default async function NuxtStack(options) {
   assign("hardSource", true)
 
   // Styles
-  if (isNotFalse(stack.normalize)) unshift("css", "normalize.css")
+  if (isNotFalse(stack.normalizeCSS)) unshift("css", "normalize.css")
   push("css", this.options.styles)
 
   // Head: Language
@@ -79,7 +79,6 @@ export default async function NuxtStack(options) {
     assign("meta.lang", stack.lang)
     assign("meta.name", stack.name)
     assign("meta.ogHost", stack.host)
-    assign("meta.ogImage", stack.image)
     assign("meta.description", stack.description)
     assign("meta.mobileAppIOS", true)
 

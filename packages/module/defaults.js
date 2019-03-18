@@ -17,12 +17,11 @@ export default {
   stack: {
     lang: "en",
     name: "Nuxt Stack",
-    host: "https://nuxtjs.org/",
+    host: "https://nuxtstack.org/",
     description: "Stacks of goodness for Nuxt.",
     keywords: ["nuxt", "stack"],
     backgroundColor: "#FFFFFF",
     themeColor: "#4fc08d",
-    image: "og.png",
-    normalize: true
+    normalizeCSS: true
   }
 }
