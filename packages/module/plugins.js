@@ -17,7 +17,7 @@ export default function addPlugins() {
   // Client Plugins
   addPlugin("webfonts", "webfontloader", "client", isPluginOptions)
   addPlugin("lazysizes", "lazysizes", "client", isNotFalse)
-  addPlugin("analytics", "vue-analytics", "client", isPluginOptions)
+  addPlugin("ga", "vue-analytics", "client", isPluginOptions)
 
   // Universal Plugins
   addPlugin("staticData", "vue-static-data", "all", isNotFalse)
