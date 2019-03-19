@@ -18,10 +18,10 @@ export default {
     lang: "en",
     name: "Nuxt Stack",
     host: "https://nuxtstack.org/",
-    description: "Stacks of goodness for Nuxt.",
+    description: "Stacks of goodness for Nuxt",
     keywords: ["nuxt", "stack"],
     backgroundColor: "#FFFFFF",
-    themeColor: "#4fc08d",
+    themeColor: "#4FC08D",
     normalizeCSS: true
   }
 }
