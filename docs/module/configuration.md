@@ -16,16 +16,16 @@ export default {
 }
 ```
 
-| Key               | Type       | Default                          |
-| :---------------- | :--------- | :------------------------------- |
-| `lang`            | `String`   | `"en"`                           |
-| `host`            | `URL`      | `"https://nuxtstack.org/"`       |
-| `name`            | `String`   | `"Nuxt Stack"`                   |
-| `shortName`       | `String`   | `stack.name`                     |
-| `description`     | `String`   | `"Stacks of goodness for Nuxt."` |
-| `keywords`        | `String[]` | `["nuxt", "stack"]`              |
-| `themeColor`      | `String`   | `"#4fc08d"`                      |
-| `backgroundColor` | `String`   | `"#FFFFFF"`                      |
+| Key               | Type       | Default                         |
+| :---------------- | :--------- | :------------------------------ |
+| `lang`            | `String`   | `"en"`                          |
+| `host`            | `URL`      | `"https://nuxtstack.org/"`      |
+| `name`            | `String`   | `"Nuxt Stack"`                  |
+| `shortName`       | `String`   | `stack.name`                    |
+| `description`     | `String`   | `"Stacks of goodness for Nuxt"` |
+| `keywords`        | `String[]` | `["nuxt", "stack"]`             |
+| `themeColor`      | `String`   | `"#4FC08D"`                     |
+| `backgroundColor` | `String`   | `"#FFFFFF"`                     |
 
 The mapping of these values can be seen below:
 
@@ -128,9 +128,9 @@ Below is a quick reference table of all the third party plugins that are include
 
 | Key                                      | Description                                                       |
 | :--------------------------------------- | :---------------------------------------------------------------- |
-| [`analytics`][vue-analytics]             | Google Analytics integration for Nuxt                             |
 | [`axios`][nuxt-axios]                    | Nuxt `axios` integration for making promise based HTTP requests   |
 | [`dotenv`][nuxt-dotenv]                  | Loads `.env` and merges the contents with Nuxt's `env` object     |
+| [`ga`][vue-analytics]                    | Google Analytics integration for Nuxt                             |
 | [`hydration`][vue-lazy-hydration]        | Lazily hydrate Vue components using a variety of strategies       |
 | [`installer`][vue-pwa-installer]         | Simple interface for installing a PWA to the home screen          |
 | [`lazysizes`][lazysizes]                 | Lazily load images and videos when they become visible            |
@@ -140,6 +140,43 @@ Below is a quick reference table of all the third party plugins that are include
 | [`svgLoader`][nuxt-svg-loader]           | Import SVGs as Vue components                                     |
 | [`tabbing`][vue-tabbing]                 | Reactive flag triggered by keyboard navigation using the tab key  |
 | [`webfonts`][webfontloader]              | Load custom webfonts from services like Google and Typekit        |
+
+## Example Config
+
+A typical `nuxt.config.js` might look something like this:
+
+```js
+export default {
+  srcDir: "src",
+  modules: ["nuxt-stack"],
+  stack: {
+    host: "https://nuxtstack.org/",
+    name: "Nuxt Stack",
+    description: "Stacks of goodness for Nuxt",
+    keywords: ["nuxt", "stack"],
+    preconnect: ["https://fonts.gstatic.com", "https://fonts.googleapis.com"]
+  },
+  ga: {
+    id: "UA-123456789-1"
+  },
+  axios: {
+    baseURL: "https://api.nuxtstack.org/"
+  },
+  webfonts: {
+    google: {
+      families: ["Quicksand:500", "Roboto Mono:400"]
+    }
+  },
+  styles: ["styles/index.scss"],
+  styleResources: {
+    scss: [
+      "styles/variables.scss",
+      "styles/functions.scss",
+      "styles/mixins.scss"
+    ]
+  }
+}
+```
 
 [eslint-loader-options]: https://github.com/webpack-contrib/eslint-loader#options
 [nuxt-css]: https://nuxtjs.org/api/configuration-css
