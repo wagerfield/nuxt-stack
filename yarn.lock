@@ -1992,6 +1992,21 @@
     core-js "^3.0.0"
     core-js-compat "^3.0.0"
 
+"@nuxt/babel-preset-app@2.5.1":
+  version "2.5.1"
+  resolved "https://registry.npmjs.org/@nuxt/babel-preset-app/-/babel-preset-app-2.5.1.tgz#11512252c93c4b1268a24134e841096f7743e80c"
+  integrity sha512-5LWXz5rtxrtEtghvdyaZ17Y6SnS/+8LQsfguJ7HYpljZkadZrQNs01AaLnnkpwvp9CejVNI0T8hslliw23ylvg==
+  dependencies:
+    "@babel/core" "^7.4.0"
+    "@babel/plugin-proposal-class-properties" "^7.4.0"
+    "@babel/plugin-proposal-decorators" "^7.4.0"
+    "@babel/plugin-syntax-dynamic-import" "^7.2.0"
+    "@babel/plugin-transform-runtime" "^7.4.0"
+    "@babel/preset-env" "^7.4.2"
+    "@babel/runtime" "^7.4.2"
+    "@vue/babel-preset-jsx" "^1.0.0-beta.2"
+    core-js "^2.6.5"
+
 "@nuxt/builder@2.5.0":
   version "2.5.0"
   resolved "https://registry.npmjs.org/@nuxt/builder/-/builder-2.5.0.tgz#b79f38458623488226941b447f6b71c3bafaedf5"
@@ -2030,15 +2045,6 @@
     pretty-bytes "^5.1.0"
     std-env "^2.2.1"
     wrap-ansi "^5.0.0"
-
-"@nuxt/config@2.4.5":
-  version "2.4.5"
-  resolved "https://registry.npmjs.org/@nuxt/config/-/config-2.4.5.tgz#78a03fe347006d5f3b620cb9acd73f62c13db61e"
-  integrity sha512-Yn1FqOVG7Si+clikYg5ILAxDWfTlweKULzZDtAZriWjQPg0D2sJ9VWV+mdggPQfyn+n4mvPvD4BEIyzvKVaXdg==
-  dependencies:
-    "@nuxt/utils" "2.4.5"
-    consola "^2.3.2"
-    std-env "^2.2.1"
 
 "@nuxt/config@2.5.0":
   version "2.5.0"
@@ -2137,14 +2143,6 @@
     serve-static "^1.13.2"
     server-destroy "^1.0.1"
     ua-parser-js "^0.7.19"
-
-"@nuxt/utils@2.4.5":
-  version "2.4.5"
-  resolved "https://registry.npmjs.org/@nuxt/utils/-/utils-2.4.5.tgz#2f1b5ed9ecdfc356e7901cc5337c31e94dbf1a40"
-  integrity sha512-/FLBP1KFwBKIaq7ht7YBrhdHG9l1uSg2B3egZdVoVLbK+Uj10uZ+XeaU+IIpC4S+hLc1FY3WTjdCb2GHp91oIw==
-  dependencies:
-    consola "^2.3.2"
-    serialize-javascript "^1.6.1"
 
 "@nuxt/utils@2.5.0":
   version "2.5.0"
@@ -4463,7 +4461,7 @@ core-js@3.0.0, core-js@^3.0.0:
   resolved "https://registry.npmjs.org/core-js/-/core-js-3.0.0.tgz#a8dbfa978d29bfc263bfb66c556d0ca924c28957"
   integrity sha512-WBmxlgH2122EzEJ6GH8o9L/FeoUKxxxZ6q6VUxoTlsE4EvbTWKJb447eyVxTEuq0LpXjlq/kCB2qgBvsYRkLvQ==
 
-core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
+core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7, core-js@^2.6.5:
   version "2.6.5"
   resolved "https://registry.npmjs.org/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
   integrity sha512-klh/kDpwX8hryYL14M9w/xei6vrv6sE8gTHDG7/T/+SEovB/G4ejwcfE/CBzO6Edsu+OETZMZ3wcX/EjUkrl5A==
