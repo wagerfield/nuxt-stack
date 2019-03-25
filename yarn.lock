@@ -2055,6 +2055,15 @@
     consola "^2.5.7"
     std-env "^2.2.1"
 
+"@nuxt/config@2.5.1":
+  version "2.5.1"
+  resolved "https://registry.npmjs.org/@nuxt/config/-/config-2.5.1.tgz#818dfe434ce4e71c0b758d8e4d1d33a26ea428b7"
+  integrity sha512-v2Q24xzkrs5S9fmRrRFpjwHEFNPWYDZPL9xcgJDEKL9ngPnSJpo2NCrvH57thkGaAqWJF1KqCKGx7LZX1UmVVg==
+  dependencies:
+    "@nuxt/utils" "2.5.1"
+    consola "^2.5.7"
+    std-env "^2.2.1"
+
 "@nuxt/core@2.5.0":
   version "2.5.0"
   resolved "https://registry.npmjs.org/@nuxt/core/-/core-2.5.0.tgz#3a0831ea790e4c433cba49c0ea66e8c318c4062a"
@@ -2148,6 +2157,18 @@
   version "2.5.0"
   resolved "https://registry.npmjs.org/@nuxt/utils/-/utils-2.5.0.tgz#10881958a25866c3af3f6f725979a2919def4d2c"
   integrity sha512-oVtD2PyMutuDybhmFF9bgkIP+1VFRrRZkTatX3oGiKWFPcnJxCcSdieL70lI8oRJRiJotDpAmzFfGagEsn9Fug==
+  dependencies:
+    consola "^2.5.7"
+    fs-extra "^7.0.1"
+    hash-sum "^1.0.2"
+    proper-lockfile "^4.1.0"
+    serialize-javascript "^1.6.1"
+    signal-exit "^3.0.2"
+
+"@nuxt/utils@2.5.1":
+  version "2.5.1"
+  resolved "https://registry.npmjs.org/@nuxt/utils/-/utils-2.5.1.tgz#9fff3fcadb7e27b5825498974b86c0ac25d54478"
+  integrity sha512-hrpHh8fF6ir4lDXAGhl5AGF7puJEkAipnvLNGAtdbtMVPEBvSNIyynKf93ECgFpxbUU2+npmx/V1LibaiMRQog==
   dependencies:
     consola "^2.5.7"
     fs-extra "^7.0.1"
