@@ -39,7 +39,7 @@
     "prettier-config-nuxt-stack": "0.4.9",
     "read-pkg": "5.0.0",
     "rimraf": "2.6.3",
-    "serve": "10.1.2",
+    "serve": "11.0.0",
     "write-pkg": "3.2.0"
   }
 }
