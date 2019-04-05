@@ -2299,6 +2299,15 @@
     consola "^2.5.7"
     std-env "^2.2.1"
 
+"@nuxt/config@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.npmjs.org/@nuxt/config/-/config-2.6.1.tgz#3578ddc55766215fa72d89289412d999624b4641"
+  integrity sha512-BIkT9ma6zQ1X/TY8F6hUWBEuJ6ie70VIF/5qjuIaTXEETNQEMSRIugO2mh6pTGCX8gEm2x6Yj91gL0uqF0pjQQ==
+  dependencies:
+    "@nuxt/utils" "2.6.1"
+    consola "^2.5.8"
+    std-env "^2.2.1"
+
 "@nuxt/core@2.5.1":
   version "2.5.1"
   resolved "https://registry.npmjs.org/@nuxt/core/-/core-2.5.1.tgz#2ec9a1ae476189fed73e4cdace02f90934a9d980"
@@ -2397,6 +2406,18 @@
     fs-extra "^7.0.1"
     hash-sum "^1.0.2"
     proper-lockfile "^4.1.0"
+    serialize-javascript "^1.6.1"
+    signal-exit "^3.0.2"
+
+"@nuxt/utils@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.npmjs.org/@nuxt/utils/-/utils-2.6.1.tgz#c917739769ffa92dc86ad9af01d4f3f88e7604d4"
+  integrity sha512-lCCAa7E1tRHvXMDd37GXfV92edc0VPKye2Z5/res6uZ1dWORhSnYMqeszmnKjpNiEjTOpMW6lNOjKncrjc4PeQ==
+  dependencies:
+    consola "^2.5.8"
+    fs-extra "^7.0.1"
+    hash-sum "^1.0.2"
+    proper-lockfile "^4.1.1"
     serialize-javascript "^1.6.1"
     signal-exit "^3.0.2"
 
@@ -4570,7 +4591,7 @@ connect@^3.6.6:
     parseurl "~1.3.2"
     utils-merge "1.0.1"
 
-consola@2.5.8:
+consola@2.5.8, consola@^2.5.8:
   version "2.5.8"
   resolved "https://registry.npmjs.org/consola/-/consola-2.5.8.tgz#26afe2ab7f560d285a88578eaae9d9be18029ba9"
   integrity sha512-fYv1M0rNJw4h0CZUx8PX02Px7xQhA+vNHpV8DBCGMoozp2Io/vrSXhhEothaRnSt7VMR0rj2pt9KKLXa5amrCw==
@@ -11295,6 +11316,15 @@ proper-lockfile@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/proper-lockfile/-/proper-lockfile-4.1.0.tgz#e5e21d68ea6938cbfb04171ac7f04dd0cba6fe92"
   integrity sha512-5FGLP4Dehcwd1bOPyQhWKUosdIbL9r7F6uvBYhlsJAsGSwFk4nGtrS1Poqj6cKU2XXgqkqfDw2h0JdNjd8IgIQ==
+  dependencies:
+    graceful-fs "^4.1.11"
+    retry "^0.12.0"
+    signal-exit "^3.0.2"
+
+proper-lockfile@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/proper-lockfile/-/proper-lockfile-4.1.1.tgz#284cf9db9e30a90e647afad69deb7cb06881262c"
+  integrity sha512-1w6rxXodisVpn7QYvLk706mzprPTAPCYAqxMvctmPN3ekuRk/kuGkGc82pangZiAt4R3lwSuUzheTTn0/Yb7Zg==
   dependencies:
     graceful-fs "^4.1.11"
     retry "^0.12.0"
