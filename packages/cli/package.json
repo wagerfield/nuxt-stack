@@ -40,6 +40,6 @@
     "read-pkg": "5.0.0",
     "rimraf": "2.6.3",
     "serve": "11.0.0",
-    "write-pkg": "3.2.0"
+    "write-pkg": "4.0.0"
   }
 }
