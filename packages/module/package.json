@@ -16,7 +16,7 @@
     "test": "echo test $npm_package_name version $npm_package_version"
   },
   "dependencies": {
-    "@nuxt/config": "2.6.1",
+    "@nuxt/config": "2.7.1",
     "@nuxtjs/axios": "5.4.1",
     "@nuxtjs/dotenv": "1.3.0",
     "@nuxtjs/pwa": "3.0.0-beta.16",
