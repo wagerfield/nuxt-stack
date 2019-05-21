@@ -6115,10 +6115,10 @@ eslint-import-resolver-node@^0.3.2:
     debug "^2.6.9"
     resolve "^1.5.0"
 
-eslint-import-resolver-nuxt@0.1.3:
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/eslint-import-resolver-nuxt/-/eslint-import-resolver-nuxt-0.1.3.tgz#f8c8c759dc7323dddeafee10732aed63ed95f7ce"
-  integrity sha512-IsOtdDF/jms/ehP/BQPXIus7w9++AB+ocC9y9VU1DNY1VKpTPrRkfcMAmkKLcB9j8Hl34VPkBzIcW1nZjDQcag==
+eslint-import-resolver-nuxt@0.1.4:
+  version "0.1.4"
+  resolved "https://registry.npmjs.org/eslint-import-resolver-nuxt/-/eslint-import-resolver-nuxt-0.1.4.tgz#5926440156c95ea93db83540a7fddd4507036278"
+  integrity sha512-T3chvP/pMTQVd4Hh3Oyx4A09H/n12iN+F3wlOXAgygAljB7Zx/tWX34RLLR6pzOvJM1yXxNPmS1uX8ngBA+buQ==
   dependencies:
     debug "^3.1.0"
     resolve "^1.7.1"
@@ -7108,7 +7108,7 @@ get-port@^3.2.0:
   resolved "https://registry.npmjs.org/get-port/-/get-port-3.2.0.tgz#dd7ce7de187c06c8bf353796ac71e099f0980ebc"
   integrity sha1-3Xzn3hh8Bsi/NTeWrHHgmfCYDrw=
 
-get-stdin@7.0.0:
+get-stdin@7.0.0, get-stdin@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/get-stdin/-/get-stdin-7.0.0.tgz#8d5de98f15171a125c5e516643c7a6d0ea8a96f6"
   integrity sha512-zRKcywvrXlXsA0v0i9Io4KDRaAw7+a1ZpjRwl9Wox8PFlVCCHra7E9c4kqXCoCM9nR5tBkaTTZRBoCm60bFqTQ==
@@ -7127,11 +7127,6 @@ get-stdin@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmjs.org/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
   integrity sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
-
-get-stdin@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.npmjs.org/get-stdin/-/get-stdin-7.0.0.tgz#8d5de98f15171a125c5e516643c7a6d0ea8a96f6"
-  integrity sha512-zRKcywvrXlXsA0v0i9Io4KDRaAw7+a1ZpjRwl9Wox8PFlVCCHra7E9c4kqXCoCM9nR5tBkaTTZRBoCm60bFqTQ==
 
 get-stream@^3.0.0:
   version "3.0.0"
