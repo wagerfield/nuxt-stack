@@ -37,6 +37,6 @@
     "vue-static-data": "0.4.0",
     "vue-tabbing": "0.1.0",
     "webfontloader": "1.6.28",
-    "webpack": "4.31.0"
+    "webpack": "4.32.2"
   }
 }
