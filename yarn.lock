@@ -7108,7 +7108,7 @@ get-port@^3.2.0:
   resolved "https://registry.npmjs.org/get-port/-/get-port-3.2.0.tgz#dd7ce7de187c06c8bf353796ac71e099f0980ebc"
   integrity sha1-3Xzn3hh8Bsi/NTeWrHHgmfCYDrw=
 
-get-stdin@7.0.0:
+get-stdin@7.0.0, get-stdin@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/get-stdin/-/get-stdin-7.0.0.tgz#8d5de98f15171a125c5e516643c7a6d0ea8a96f6"
   integrity sha512-zRKcywvrXlXsA0v0i9Io4KDRaAw7+a1ZpjRwl9Wox8PFlVCCHra7E9c4kqXCoCM9nR5tBkaTTZRBoCm60bFqTQ==
@@ -7127,11 +7127,6 @@ get-stdin@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmjs.org/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
   integrity sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
-
-get-stdin@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.npmjs.org/get-stdin/-/get-stdin-7.0.0.tgz#8d5de98f15171a125c5e516643c7a6d0ea8a96f6"
-  integrity sha512-zRKcywvrXlXsA0v0i9Io4KDRaAw7+a1ZpjRwl9Wox8PFlVCCHra7E9c4kqXCoCM9nR5tBkaTTZRBoCm60bFqTQ==
 
 get-stream@^3.0.0:
   version "3.0.0"
@@ -14142,10 +14137,10 @@ vue-jest@3.0.4:
     tsconfig "^7.0.0"
     vue-template-es2015-compiler "^1.6.0"
 
-vue-lazy-hydration@1.0.0-beta.7:
-  version "1.0.0-beta.7"
-  resolved "https://registry.npmjs.org/vue-lazy-hydration/-/vue-lazy-hydration-1.0.0-beta.7.tgz#ecb6a644cc72ffd9ef58b8501219c7710de1e314"
-  integrity sha512-x8PUrI2s3/g+j5xfPBnnljN0Xen0WRhvzJAAJWfVpEWMD3sznZupzUzNeF9LDjQB44mVG1dzYvjYvMse88arsw==
+vue-lazy-hydration@1.0.0-beta.8:
+  version "1.0.0-beta.8"
+  resolved "https://registry.npmjs.org/vue-lazy-hydration/-/vue-lazy-hydration-1.0.0-beta.8.tgz#7774e327b0cdedffe8b1e2f80f27b07d70978f3c"
+  integrity sha512-ZV2YCq68p9GgFCLmjx2/B4ooHKd36oT7OY3DU4wddO0Q6CuPhXVbrvzKvsPwA9apnqlb45NViBoTMk6yo2ONVQ==
 
 vue-loader@^15.6.2, vue-loader@^15.7.0:
   version "15.7.0"
