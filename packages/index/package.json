@@ -20,6 +20,6 @@
     "nuxt-stack-module": "0.4.9"
   },
   "peerDependencies": {
-    "nuxt": "2.7.1"
+    "nuxt": "2.8.0"
   }
 }
