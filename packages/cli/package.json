@@ -33,7 +33,7 @@
     "fs-extra": "8.0.1",
     "jest-preset-nuxt-stack": "0.4.9",
     "lodash": "4.17.11",
-    "nuxt": "2.8.0",
+    "nuxt": "2.8.1",
     "nuxt-stack-templates": "0.4.9",
     "nuxt-stack-utils": "0.4.9",
     "prettier-config-nuxt-stack": "0.4.9",
