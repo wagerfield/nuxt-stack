@@ -6498,10 +6498,10 @@ eslint-import-resolver-node@^0.3.2:
     debug "^2.6.9"
     resolve "^1.5.0"
 
-eslint-import-resolver-nuxt@0.1.4:
-  version "0.1.4"
-  resolved "https://registry.npmjs.org/eslint-import-resolver-nuxt/-/eslint-import-resolver-nuxt-0.1.4.tgz#5926440156c95ea93db83540a7fddd4507036278"
-  integrity sha512-T3chvP/pMTQVd4Hh3Oyx4A09H/n12iN+F3wlOXAgygAljB7Zx/tWX34RLLR6pzOvJM1yXxNPmS1uX8ngBA+buQ==
+eslint-import-resolver-nuxt@0.1.5:
+  version "0.1.5"
+  resolved "https://registry.npmjs.org/eslint-import-resolver-nuxt/-/eslint-import-resolver-nuxt-0.1.5.tgz#3bb69943f976cc7edd5ed5df98abed14e76c3539"
+  integrity sha512-6gbsCMSn5KAxL4iT+77Xv7oFqE6j37Lydgq9WPqoR7BhFtkZwLayy6KLcj2jfHm0A+I6uwyJg7gtH/1xXHOVmw==
   dependencies:
     debug "^3.1.0"
     resolve "^1.7.1"
