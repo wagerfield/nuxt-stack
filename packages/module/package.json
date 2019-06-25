@@ -23,7 +23,7 @@
     "@nuxtjs/sitemap": "1.2.0",
     "@nuxtjs/style-resources": "0.1.2",
     "deepmerge": "3.3.0",
-    "eslint": "6.0.0",
+    "eslint": "6.0.1",
     "eslint-loader": "2.1.2",
     "lazysizes": "5.1.0",
     "node-sass": "4.12.0",
