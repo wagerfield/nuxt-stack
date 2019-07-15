@@ -16,8 +16,8 @@
     "test": "echo test $npm_package_name version $npm_package_version"
   },
   "dependencies": {
-    "@commitlint/cli": "8.0.0",
-    "@commitlint/config-conventional": "8.0.0",
-    "@commitlint/prompt-cli": "8.0.0"
+    "@commitlint/cli": "8.1.0",
+    "@commitlint/config-conventional": "8.1.0",
+    "@commitlint/prompt-cli": "8.1.0"
   }
 }
