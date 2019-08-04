@@ -9973,10 +9973,10 @@ lazy-cache@^1.0.3:
   resolved "https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
   integrity sha1-odePw6UEdMuAhF07O24dpJpEbo4=
 
-lazysizes@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/lazysizes/-/lazysizes-5.1.0.tgz#a87d413aa3765dee03fcb2159f423ab84ed2f2e6"
-  integrity sha512-5NsKePWiWTTCXf3xKFaLOXE6eEX0Y1iWpxYAHnPRiv4JrDpUmgRnuDxeDeskw4hue9SgViXbAtEEvP9Jd8yZfQ==
+lazysizes@5.1.1:
+  version "5.1.1"
+  resolved "https://registry.npmjs.org/lazysizes/-/lazysizes-5.1.1.tgz#7ca0266519d531ce740d6782e42faf700883646c"
+  integrity sha512-UCbdRSsozjlS6r56dPMFXX+AW2t8G0duRKxQDwvEpNTrWOHQo56YlTx5ssT7epU87PoruF1q9tvW3kSbQjorMw==
 
 lcid@^1.0.0:
   version "1.0.0"
