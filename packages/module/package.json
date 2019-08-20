@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@nuxt/config": "2.9.1",
-    "@nuxtjs/axios": "5.5.4",
+    "@nuxtjs/axios": "5.6.0",
     "@nuxtjs/dotenv": "1.4.0",
     "@nuxtjs/pwa": "3.0.0-beta.16",
     "@nuxtjs/sitemap": "1.2.0",
