@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@vue/eslint-config-prettier": "5.0.0",
-    "babel-eslint": "10.0.2",
+    "babel-eslint": "10.0.3",
     "eslint": "6.2.2",
     "eslint-config-standard": "14.0.1",
     "eslint-import-resolver-nuxt": "0.1.5",
