@@ -27,7 +27,7 @@
   "dependencies": {
     "commitlint-config-nuxt-stack": "0.4.9",
     "consola": "2.10.1",
-    "cross-env": "5.2.0",
+    "cross-env": "5.2.1",
     "cross-spawn": "6.0.5",
     "eslint-config-nuxt-stack": "0.4.9",
     "fs-extra": "8.1.0",
