@@ -1,7 +1,7 @@
 {
   "name": "nuxt-stack",
   "description": "Stack of modules and commands for building performant applications with zero configuration",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "license": "MIT",
   "author": "Matthew Wagerfield <matthew@wagerfield.com>",
   "homepage": "https://github.com/wagerfield/nuxt-stack#readme",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "nuxt-stack-cli": "0.5.0",
-    "nuxt-stack-module": "0.5.0"
+    "nuxt-stack-module": "0.5.1"
   },
   "peerDependencies": {
     "nuxt": "2.9.2"
