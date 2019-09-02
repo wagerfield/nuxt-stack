@@ -96,6 +96,7 @@ NuxtCommand.run({
 
     // Root Files
     api.copy(api.tpl("rootfiles"), api.dst())
+    api.output("", api.dst(".env"))
 
     // Project Files
     const tplProjectDir = api.tpl(`projects/${cmd.argv.template}`)
