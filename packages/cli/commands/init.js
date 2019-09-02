@@ -76,8 +76,8 @@ NuxtCommand.run({
 
     // Dot Files
     api.copy(api.tpl("dotfiles"), api.dst())
-    api.copy(api.tpl("gitignore"), api.dst(".gitignore"))
-    api.output("", api.dst(".env"))
+    api.write(api.tpl("gitignore"), api.dst(".gitignore"))
+    api.write(api.tpl("env"), api.dst(".env"))
 
     // VSCode Files
     if (cmd.argv.vscode) {
