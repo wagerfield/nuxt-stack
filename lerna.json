@@ -8,8 +8,6 @@
       "npmClient": "npm",
       "allowBranch": "master",
       "message": "chore(release): publish %v",
-      "conventionalCommits": true,
-      "githubRelease": false,
       "yes": true
     }
   },

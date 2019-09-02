@@ -16,18 +16,15 @@ sw.js
 
 # basic example
 examples/basic/*
-!examples/basic/changelog.md
 !examples/basic/package.json
 
 # benchmark example
 examples/benchmark/*
-!examples/benchmark/changelog.md
 !examples/benchmark/package.json
 !examples/benchmark/nuxt.config.js
 
 # fancy example
 examples/fancy/*
-!examples/fancy/changelog.md
 !examples/fancy/package.json
 
 # logs
