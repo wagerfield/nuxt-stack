@@ -1,10 +1,10 @@
 {
   "name": "nuxt-stack-example-basic",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "private": true,
   "dependencies": {
     "nuxt": "2.4.5",
-    "nuxt-stack": "0.6.1"
+    "nuxt-stack": "0.6.2"
   },
   "scripts": {
     "dev": "nuxt",
