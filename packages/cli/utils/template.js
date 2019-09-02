@@ -6,7 +6,6 @@ const { bindAll, get, template } = require("lodash")
 const { format, getFileInfo } = require("prettier")
 const {
   copySync,
-  moveSync,
   lstatSync,
   readFileSync,
   outputFileSync,
@@ -49,12 +48,6 @@ class Template {
     copySync(src, dst, {
       overwrite: this.overwrite,
       filter: this.filter
-    })
-  }
-
-  move(src, dst) {
-    moveSync(src, dst, {
-      overwrite: this.overwrite
     })
   }
 

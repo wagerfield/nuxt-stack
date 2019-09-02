@@ -76,7 +76,8 @@ NuxtCommand.run({
 
     // Dot Files
     api.copy(api.tpl("dotfiles"), api.dst())
-    api.move(api.dst("gitignore"), api.dst(".gitignore"))
+    api.copy(api.tpl("gitignore"), api.dst(".gitignore"))
+    api.output("", api.dst(".env"))
 
     // VSCode Files
     if (cmd.argv.vscode) {
@@ -97,7 +98,6 @@ NuxtCommand.run({
 
     // Root Files
     api.copy(api.tpl("rootfiles"), api.dst())
-    api.output("", api.dst(".env"))
 
     // Project Files
     const tplProjectDir = api.tpl(`projects/${cmd.argv.template}`)
