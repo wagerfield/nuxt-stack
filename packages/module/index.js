@@ -22,6 +22,7 @@ export default async function NuxtStack(options) {
   const assign = config(assoc)
 
   // Defaults
+  assign("cache", true)
   assign("hardSource", true)
 
   // Styles
