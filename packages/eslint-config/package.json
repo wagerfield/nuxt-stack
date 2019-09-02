@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-nuxt-stack",
   "description": "Nuxt Stack ESLint config",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "license": "MIT",
   "author": "Matthew Wagerfield <matthew@wagerfield.com>",
   "homepage": "https://nuxtstack.org",
