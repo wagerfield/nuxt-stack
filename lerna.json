@@ -7,23 +7,7 @@
     "version": {
       "npmClient": "npm",
       "allowBranch": "master",
-      "message": "chore(release): publish %v",
-      "yes": true
-    }
-  },
-  "changelog": {
-    "labels": {
-      "build": "Build",
-      "chore": "Chore",
-      "ci": "Continuous Integration",
-      "docs": "Documentation",
-      "feat": "Feature",
-      "fix": "Fix",
-      "perf": "Performance",
-      "refactor": "Refactor",
-      "revert": "Revert",
-      "style": "Style",
-      "test": "Test"
+      "message": "chore(release): publish %v"
     }
   },
   "packages": [
