@@ -32,7 +32,7 @@ NuxtCommand.run({
       default: "dist",
       description: "Generate directory\nDefault: dist"
     },
-    template: {
+    "template": {
       alias: "t",
       type: "string",
       default: "fancy",
@@ -42,17 +42,17 @@ NuxtCommand.run({
         "Default: fancy"
       ].join("\n")
     },
-    overwrite: {
+    "overwrite": {
       alias: "o",
       type: "boolean",
       description: "Overwrite any existing template files"
     },
-    vscode: {
+    "vscode": {
       alias: "e",
       type: "boolean",
       description: "Output VSCode settings and jsconfig\nDefault: false"
     },
-    hooks: {
+    "hooks": {
       alias: "k",
       type: "boolean",
       default: true,
@@ -70,6 +70,9 @@ NuxtCommand.run({
       configFile: get(cmd, "argv.config-file"),
       overwrite: get(cmd, "argv.overwrite")
     })
+
+    // File Extension
+    if (!api.configFile.endsWith(".js")) api.configFile += ".js"
 
     // Dot Files
     api.copy(api.tpl("dotfiles"), api.dst())
