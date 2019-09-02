@@ -71,11 +71,12 @@ NuxtCommand.run({
       overwrite: get(cmd, "argv.overwrite")
     })
 
-    // File Extension
+    // Nuxt Config
     if (!api.configFile.endsWith(".js")) api.configFile += ".js"
 
     // Dot Files
     api.copy(api.tpl("dotfiles"), api.dst())
+    api.move(api.dst("gitignore"), api.dst(".gitignore"))
 
     // VSCode Files
     if (cmd.argv.vscode) {

@@ -6,6 +6,7 @@ const { bindAll, get, template } = require("lodash")
 const { format, getFileInfo } = require("prettier")
 const {
   copySync,
+  moveSync,
   lstatSync,
   readFileSync,
   outputFileSync,
@@ -51,6 +52,12 @@ class Template {
     })
   }
 
+  move(src, dst) {
+    moveSync(src, dst, {
+      overwrite: this.overwrite
+    })
+  }
+
   compile(src, fmt) {
     const info = getFileInfo.sync(src)
     const ignore = info.ignored || fmt === false
@@ -91,7 +98,7 @@ class Template {
   }
 
   dot(path) {
-    return path ? path : "."
+    return path || "."
   }
 
   slash(path) {
