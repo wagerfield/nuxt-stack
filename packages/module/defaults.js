@@ -1,17 +1,14 @@
-import formatter from "eslint/lib/formatters/codeframe"
-
 export default {
+  eslint: {
+    formatter: "codeframe",
+    emitWarning: true,
+    cache: true,
+    fix: true
+  },
   icon: {
     iconFileName: "icon.png"
   },
-  eslint: {
-    emitWarning: true,
-    cache: true,
-    fix: true,
-    formatter
-  },
   sitemap: {
-    generate: true,
     gzip: true
   },
   stack: {

@@ -55,6 +55,8 @@ export default async function NuxtStack(options) {
 
   // Dotenv
   if (isNotFalse(this.options.dotenv)) {
+    assign("dotenv.path", this.options.rootDir)
+
     this.requireModule({
       src: "@nuxtjs/dotenv",
       options: this.options.dotenv
