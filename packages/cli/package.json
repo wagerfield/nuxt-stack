@@ -1,7 +1,7 @@
 {
   "name": "nuxt-stack-cli",
   "description": "Nuxt Stack CLI",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "license": "MIT",
   "author": "Matthew Wagerfield <matthew@wagerfield.com>",
   "homepage": "https://nuxtstack.org",
@@ -34,7 +34,7 @@
     "jest-preset-nuxt-stack": "0.6.0",
     "lodash": "4.17.15",
     "nuxt": "2.9.2",
-    "nuxt-stack-templates": "0.6.0",
+    "nuxt-stack-templates": "0.6.5",
     "nuxt-stack-utils": "0.6.0",
     "prettier-config-nuxt-stack": "0.6.0",
     "read-pkg": "5.2.0",
