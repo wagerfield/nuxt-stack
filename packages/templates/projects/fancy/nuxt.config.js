@@ -28,7 +28,7 @@ export default {<%
     google: {
       families: [
         "Quicksand:500",
-        "Roboto Mono:400"
+        "Roboto Mono:400&display=swap" // https://git.io/fjjcJ
       ]
     }
   }
