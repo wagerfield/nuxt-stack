@@ -18,7 +18,7 @@ export default {
   border: none;
   outline: none;
   color: $white;
-  background: $green-1;
+  background: $green-2;
   border-radius: 2em;
   letter-spacing: 1px;
   padding: 1em 2em;

@@ -3,7 +3,7 @@
     <main class="content">
       <v-logo class="logo" :width="logoSize" :height="logoSize" />
       <h1 class="title">
-        <span class="green-1">Nuxt</span>
+        <span class="green-2">Nuxt</span>
         <span class="green-3">Stack</span>
       </h1>
       <div v-if="$installer.canInstall" class="callout">
@@ -75,7 +75,7 @@ export default {
 .footer {
   grid-area: footer;
   padding: 1em 2em;
-  background: $green-1;
+  background: $green-2;
   text-align: center;
   color: $white;
 }
