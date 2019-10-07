@@ -22,7 +22,7 @@
     "@nuxtjs/pwa": "3.0.0-beta.19",
     "@nuxtjs/sitemap": "2.0.0",
     "@nuxtjs/style-resources": "1.0.0",
-    "deepmerge": "4.0.0",
+    "deepmerge": "4.1.0",
     "eslint": "6.5.1",
     "eslint-loader": "3.0.2",
     "lazysizes": "5.1.2",
