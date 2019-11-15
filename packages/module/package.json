@@ -31,7 +31,7 @@
     "nuxt-stack-templates": "0.7.2",
     "nuxt-svg-loader": "1.0.1",
     "sass-loader": "8.0.0",
-    "vue-analytics": "5.17.5",
+    "vue-analytics": "5.18.0",
     "vue-lazy-hydration": "1.0.0-beta.9",
     "vue-pwa-installer": "0.2.0",
     "vue-static-data": "0.4.0",
