@@ -25,7 +25,7 @@
     ]
   },
   "devDependencies": {
-    "lerna": "3.18.4"
+    "lerna": "3.18.5"
   },
   "workspaces": [
     "examples/*",
