@@ -16056,10 +16056,10 @@ vorpal@^1.12.0:
     strip-ansi "^3.0.0"
     wrap-ansi "^2.0.0"
 
-vue-analytics@5.21.0:
-  version "5.21.0"
-  resolved "https://registry.npmjs.org/vue-analytics/-/vue-analytics-5.21.0.tgz#c2c19a8d6ad0db2edde7d0901532e2d38513c37b"
-  integrity sha512-rxxzWEsZ1OXDM6V350XsgK81IWxRCQs1wzwBfo/FUEGzZ0YlPm7ZJ34yuiW4mozuVXYGFdahSq1XASfjxHZsfQ==
+vue-analytics@5.21.1:
+  version "5.21.1"
+  resolved "https://registry.npmjs.org/vue-analytics/-/vue-analytics-5.21.1.tgz#a430a99aa64076328021e13cea006a8e6dfec416"
+  integrity sha512-xh9uhZ6M/LEdqUpD7V4r92cGMcW3oL+DrSRdsWiiE8MBcag7Ix1Vki45p3mu7vsH+S4qUFnOWok4uj+o3QiWHQ==
 
 vue-client-only@^2.0.0:
   version "2.0.0"
