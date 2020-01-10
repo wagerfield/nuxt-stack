@@ -16,7 +16,7 @@
     "test": "echo test $npm_package_name version $npm_package_version"
   },
   "dependencies": {
-    "husky": "4.0.5",
+    "husky": "4.0.6",
     "lint-staged": "9.5.0"
   }
 }
