@@ -12289,10 +12289,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-svg-loader@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/nuxt-svg-loader/-/nuxt-svg-loader-1.0.1.tgz#4565f4a390be7c81b1f39197c7a69ea105da1912"
-  integrity sha512-DWtW81OYlD51+K/OZaWM5CDapIQ44zri+6t/SBxaNbM3XPw+vhe82Y8rtp4zmrx0s1biQ8lVTBLoIBenctEcgQ==
+nuxt-svg-loader@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/nuxt-svg-loader/-/nuxt-svg-loader-1.1.0.tgz#77fd21259da0110007b2778e7ed92f03a2c40be6"
+  integrity sha512-unXSbAbyMbv5pLyxGYY5qwSyoKT7FKW2nnDoC2GShL1gT6C00FDlA4HjIrE6rxFVcfQGiW+IhVvgi3z4ggU/ZQ==
   dependencies:
     consola "^2.3.2"
     svg-to-vue-component "^0.3.1"
