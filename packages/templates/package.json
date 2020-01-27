@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "husky": "4.2.1",
-    "lint-staged": "10.0.2"
+    "lint-staged": "10.0.3"
   }
 }
