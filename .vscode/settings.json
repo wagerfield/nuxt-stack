@@ -1,29 +1,14 @@
 {
   "editor.formatOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    {
-      "language": "html",
-      "autoFix": true
-    },
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "vue",
-      "autoFix": true
-    }
-  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.validate": ["javascript", "typescript", "vue"],
   "files.exclude": {
-    "**/node_modules": true,
-    "**/.nuxt": true
+    "**/node_modules": false,
+    "**/.nuxt": false
   },
   "[javascript]": {
-    "editor.formatOnSave": false
-  },
-  "[json]": {
     "editor.formatOnSave": false
   },
   "[vue]": {
