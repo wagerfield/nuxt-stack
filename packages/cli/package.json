@@ -28,7 +28,7 @@
     "commitlint-config-nuxt-stack": "0.7.0",
     "consola": "2.12.1",
     "cross-env": "7.0.2",
-    "cross-spawn": "7.0.2",
+    "cross-spawn": "7.0.3",
     "eslint-config-nuxt-stack": "0.7.2",
     "fs-extra": "9.0.0",
     "jest-preset-nuxt-stack": "0.7.0",
