@@ -16,8 +16,8 @@
     "test": "echo test $npm_package_name version $npm_package_version"
   },
   "dependencies": {
-    "@babel/core": "7.10.0",
-    "@babel/preset-env": "7.10.0",
+    "@babel/core": "7.10.1",
+    "@babel/preset-env": "7.10.1",
     "@nuxt/babel-preset-app": "2.12.2",
     "@vue/test-utils": "1.0.2",
     "babel-core": "7.0.0-bridge.0",
