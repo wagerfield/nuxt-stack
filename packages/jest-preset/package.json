@@ -18,7 +18,7 @@
   "dependencies": {
     "@babel/core": "7.10.2",
     "@babel/preset-env": "7.10.2",
-    "@nuxt/babel-preset-app": "2.12.2",
+    "@nuxt/babel-preset-app": "2.13.0",
     "@vue/test-utils": "1.0.3",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "26.0.1",
