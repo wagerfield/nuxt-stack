@@ -30,7 +30,7 @@
     "normalize.css": "8.0.1",
     "nuxt-stack-templates": "0.8.1",
     "nuxt-svg-loader": "1.2.0",
-    "sass-loader": "9.0.1",
+    "sass-loader": "9.0.2",
     "vue-analytics": "5.22.1",
     "vue-lazy-hydration": "1.0.0-beta.12",
     "vue-pwa-installer": "0.2.0",
